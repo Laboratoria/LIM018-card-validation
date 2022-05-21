@@ -4,28 +4,39 @@
 }
 
 body {
-    font-family: Poppins;
+    font-family: Poppins;  
+    background-color: #D5F5E3;
 }
 
-a { text-decoration: none;
-    
+a {
+     text-decoration: none;
 }
+
 h1 {
     font-size: 55px;
     font-weight: bold;
     align-items: center;
 }
 
-h2, a {
-    font-size: 15px;
+h2, li {
+    font-size: 13px; 
 }
+
+li {
+    font-weight: bold;
+}
+
 h1, h2 {
-    padding: 20px;
+    padding: 10px;
 }
 
 h3 {
     font-size: 48px;
     padding: 8px;
+}
+
+p, label {
+    font-size: 16px;
 }
 
 .wrapper {
@@ -36,42 +47,105 @@ h3 {
 
 .logo {
     text-align: center;
-    margin-top: 35px;
+    margin-top: 25px;
 }
 
 .event {
     display: flex;
     justify-content: space-around;
-    padding: 10px;  
+    padding: 5px;  
 }
 
 button {
-    width: 150px;
-    height: 40px;
-   
-    margin-left: 620px;
-   
+    width: 20%;
+    height: 60px;
+    display: block;
+    margin: auto;
     padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    border-radius: 20px;
-    background-color: green;
+    margin-top: 12px;
+    padding: 10px;
+    background-color: #99FF00;
+    border: 8px;
+    border-radius: 12px;
     cursor: pointer;
     font-size: 18px;
-    
+}
+
+button:hover {
+    background: #00DD3B;
 }
 
 .footer-nav, .footer-end {
     text-align: center;
+    margin-top: 5px;
 }
 
 .nav {
     display: flex;
     justify-content: space-around;
-    padding: 10px;   
+    padding: 10px;    
 }
 
 .footer-end p {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 15px;
+}
+
+/* PANTALLA PAGAR CON TC*/
+
+.form-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 25px;
+    background-color: gainsboro;
+}
+
+.credit-card img {
+    margin-top: 60px;
+    margin-left: 25%;
+    margin-bottom: 25px;
+}
+
+.date {
+    display: flex;
+    margin-left: 25%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.expiration {
+    display: flex;
+}
+
+.group {
+    margin-left: 25%;
+    padding: 5px;  
+}
+
+#inputNumber, #inputName {
+    display: block;
+    width: 60%; 
+}
+
+#cvvNumber {
+    margin-left: 15px;
+    width: 40%;
+}
+
+#inputNumber, #inputName, #cvvNumber, select {
+    border-radius: 4px;
+    border: none;
+    height: 25px;
+    margin-bottom: 25px;
+    height: 35px;   
+}
+
+.year, .cvv {
+    margin-left: 25px;
+}
+
+.btn-pagar {
+    width: 30%;
+    margin-left: 33%;
+    margin-bottom: 60px;  
 }
