@@ -54,11 +54,13 @@ p, label {
     display: flex;
     justify-content: space-around;
     padding: 5px;  
+    margin-top: 25px;
+    margin-bottom: 35px;
 }
 
 button {
     width: 20%;
-    height: 60px;
+    height: 50px;
     display: block;
     margin: auto;
     padding: 20px;
@@ -69,12 +71,16 @@ button {
     border-radius: 12px;
     cursor: pointer;
     font-size: 18px;
+    margin-bottom: 18px;
 }
 
 button:hover {
     background: #00DD3B;
 }
 
+footer {
+    background-color: #00DD3B;
+}
 .footer-nav, .footer-end {
     text-align: center;
     margin-top: 5px;
@@ -89,9 +95,14 @@ button:hover {
 .footer-end p {
     font-size: 12px;
     line-height: 15px;
+    padding-bottom: 10px;
 }
 
-/* PANTALLA PAGAR CON TC*/
+/* PANTALLA 2 */
+
+#paso2 {
+    display: none;
+}
 
 .form-container {
     max-width: 700px;
@@ -101,16 +112,16 @@ button:hover {
 }
 
 .credit-card img {
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 25%;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .date {
     display: flex;
     margin-left: 25%;
     padding: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .expiration {
@@ -147,5 +158,5 @@ button:hover {
 .btn-pagar {
     width: 30%;
     margin-left: 33%;
-    margin-bottom: 60px;  
+    margin-bottom: 18px;  
 }

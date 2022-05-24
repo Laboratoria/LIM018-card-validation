@@ -12,123 +12,147 @@
   <body>
     <div class="wrapper">
       <main>
-        
-        <div class=""js_paso1>
-        <div class="logo">
-          <figure>
-            <img src="./galeria/logo.png" alt="logo React" />
-          </figure>
-          <h2>Del 20 al 23 de junio de 2022</h2>
-          <h1>EL EVENTO DE TECNOLOGÍA ONLINE MÁS GRANDE DE LATINOAMÉRICA</h1>
-        </div>
-
-        <div class="event">
-          <div>
-            <h3>4</h3>
-            <p>Días de evento</p>
+        <!--PANTALLA 1-->
+        <div id="paso1">
+          <div class="logo">
+            <figure>
+              <img src="./galeria/logo.png" alt="logo React" />
+            </figure>
+            <h2>Del 20 al 23 de junio de 2022</h2>
+            <h1>EL EVENTO DE TECNOLOGÍA ONLINE MÁS GRANDE DE LATINOAMÉRICA</h1>
           </div>
-          <div>
-            <h3>60+</h3>
-            <p>
-              Speakers compartiendo <br />
-              sus experiencias
-            </p>
-          </div>
-          <div>
-            <h3>25K+</h3>
-            <p>Devs de todas <br />partes del mundo</p>
-          </div>
-          <div>
-            <h3>50</h3>
-            <p>Workshops</p>
-          </div>
-        </div>
-        <button>TICKETS</button>
-        </div>
 
-<!--PANTALLA DE COMPRA -->
-        <div js_paso2>
-
-        <div class="form-container"> <!-- usar medidas de trivia-->
-        
-        <div class="credit-card">
-          <figure>
-            <img src="./galeria/card.jpg" width="300" height="200" alt="tarjeta de ">
-          </figure>
-        </div>
-
-
-        <form action="" id="form" class="form"> <!--separa label del input. Darle su porpia clase a laberl como las de abajol-->
-        
-        
-        <div class="group">
-        <label for="inputName">Nombre de cliente</label>
-        </div>
-        <div class="group">
-        <input type="text" id="inputName" maxlength="19" placeholder=" Ejm: Juan Perez" required autocomplete="off"> 
-        </div>
-        <div class="group">
-          <label for="inputNumber">Número de Tarjeta</label>
-        </div>
-        <div class="group" >
-          <input type="text" id="inputNumber" maxlength="19" placeholder=" 0000-0000-0000-0000" required autocomplete="off"> 
-        </div>  
-        
-
-        <div class="card">
-         <!--flex para class expirarion y class cvv -->
-         <div class="group">
-            <label for="SelectMonth">Fecha de expiración</label>
-          </div>  
-            <div class="date"> <!--flex para class expiration y class cvv-->
-            <div class="expiration"> <!--flex para class month  y class year -->
-            
-              <div class="month">
-              <select name="month" id="selectMonth">
-                <option disabled selected>MES</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-              </select>
+          <div class="event">
+            <div>
+              <h3>4</h3>
+              <p>Días de evento</p>
             </div>
-              
-              <div class="year"> 
-                <select name="year" id="selectYear">
-                  <option disabled selected>AÑO</option>
-                  <option value="1">2022</option>
-                  <option value="2">2023</option>
-                  <option value="2">2024</option>
-                  <option value="3">2025</option>
-                  <option value="4">2026</option>
-                  <option value="5">2027</option>
-                </select>
-            
-            
+            <div>
+              <h3>60+</h3>
+              <p>
+                Speakers compartiendo <br />
+                sus experiencias
+              </p>
             </div>
-          </div> <!--cierre expiration-->
+            <div>
+              <h3>25K+</h3>
+              <p>Devs de todas <br />partes del mundo</p>
+            </div>
+            <div>
+              <h3>50</h3>
+              <p>Workshops</p>
+            </div>
+          </div>
+          <button id="btn-comprar">TICKETS</button>
+        </div>
+        <!--cierra div pantalla 1-->
 
-          <!--aqui label CVV con class group. Class card sería el padre-->
-            <div class="cvv">
-            <label for="cvvNumber">CVV<input type="text" id="cvvNumber" maxlength="3" required autocomplete="off"> </label>
-            </div> 
-            <!--aqui estaba eldiv de cierre de expiration-->
-          </div> <!--cierre date-->
-        </div> <!--cierre class card-->
-        <button type="submit" class="btn-pagar" id="btn-pagar">Pagar $349</button>
+        <!--PANTALLA 2 -->
+        <div class="pasos" id="paso2">
+          <div class="form-container">
+            <div class="credit-card">
+              <figure>
+                <img
+                  src="./galeria/card.jpg"
+                  width="300"
+                  height="200"
+                  alt="tarjeta de "
+                />
+              </figure>
+            </div>
 
-        </form>
-      </div>
+            <form action="" id="form" class="form">
+              <!--separa label del input. Darle su porpia clase a laberl como las de abajol-->
 
-          
+              <div class="group">
+                <label for="inputName">Nombre de cliente</label>
+              </div>
+              <div class="group">
+                <input
+                  type="text"
+                  id="inputName"
+                  maxlength="19"
+                  placeholder=" Ejm: Juan Perez"
+                  required
+                  autocomplete="off"
+                />
+              </div>
+              <div class="group">
+                <label for="inputNumber">Número de Tarjeta</label>
+              </div>
+              <div class="group">
+                <input
+                  type="text"
+                  id="inputNumber"
+                  maxlength="19"
+                  placeholder=" 0000-0000-0000-0000"
+                  required
+                  autocomplete="off"
+                />
+              </div>
+
+              <div class="card">
+                <div class="group">
+                  <label for="SelectMonth">Fecha de expiración</label>
+                </div>
+                <div class="date">
+                  <!--flex para class expiration y class cvv-->
+                  <div class="expiration">
+                    <!--flex para class month  y class year -->
+                    <div class="month">
+                      <select name="month" id="selectMonth">
+                        <option disabled selected>MES</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                      </select>
+                    </div>
+
+                    <div class="year">
+                      <select name="year" id="selectYear">
+                        <option disabled selected>AÑO</option>
+                        <option value="1">2022</option>
+                        <option value="2">2023</option>
+                        <option value="2">2024</option>
+                        <option value="3">2025</option>
+                        <option value="4">2026</option>
+                        <option value="5">2027</option>
+                      </select>
+                    </div>
+                  </div>
+                  <!--cierre expiration-->
+
+                  <div class="cvv">
+                    <label for="cvvNumber"
+                      >CVV<input
+                        type="text"
+                        id="cvvNumber"
+                        maxlength="3"
+                        required
+                        autocomplete="off"
+                      />
+                    </label>
+                  </div>
+                  <!--aqui estaba eldiv de cierre de expiration-->
+                </div>
+                <!--cierre date-->
+              </div>
+              <!--cierre class card-->
+              <button type="submit" class="btn-pagar" id="btn-pagar">
+                Pagar $349
+              </button>
+            </form>
+          </div>
+        </div>
       </main>
 
       <footer class="footer-nav">
@@ -140,13 +164,12 @@
           <li><a href="">FAQ</a></li>
         </ul>
         <div class="footer-end">
-          <p>Todos los derechos reservados 2022
-           by Myriam Rivera
-          </p>
+          <p>Todos los derechos reservados 2022 by Myriam Rivera</p>
         </div>
       </footer>
-  
-      <script src="index.js" type="module"></script>
     </div>
+    <!--cierre class wrapper-->
+
+    <script src="index.js" type="module"></script>
   </body>
 </html>
