@@ -20,17 +20,12 @@ const validator = {
   
     
   },
-  maskify : (n)=>{
-  let digits = n.toString().split('').map(Number);
-  let mask = '#'
-  //replace
-  if(digits.length != 0){
-      //return digits.replace(digits,mask)
-  }
-   
+  maskify : ()=>{
 
-  }
-};
+  },
+  
+  };
+
 
 export default validator;
 
