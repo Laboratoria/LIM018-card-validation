@@ -21,7 +21,10 @@ const validator = {
     
   },
   maskify : ()=>{
-
+// recorrer el array con map()
+// filtrar con filter()las posiciones 0 al 12 del arreglo
+// Reemplazar con replace() con #
+// Hemos llegado hasta aquí
   },
   
   };
