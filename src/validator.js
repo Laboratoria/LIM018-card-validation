@@ -24,7 +24,7 @@ const validator = {
   let digits = n.toString().split('').map(Number);
   let mask = '#'
   //replace
-  if(digits.lengthg != 0){
+  if(digits.length != 0){
       //return digits.replace(digits,mask)
   }
    
