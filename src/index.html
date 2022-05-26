@@ -6,11 +6,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header> <h1> Detalles de tu reserva en PRIORI </h1></header>
+    <header> <h1> Detalles de tu reserva en APRIORI </h1></header>
     <main> 
-        <section>
-          <img src="./img/aprioriReservation.jpeg" alt="texto descriptivo">
-          <div>
+        <section id="reservation">
+          <img id= "img1" src="./img/aprioriReservation.jpeg" alt="texto descriptivo">
+          <div id="dataOfReservation">
             <p> Reserva hecha</p>
             <p> Mesa Nro. 12</p>
             <p> Martes 24 a las 20:30 hrs.</p>
@@ -18,7 +18,7 @@
             <p> Av. Los Caminos 123</p>
             
           </div>
-          <div>
+          <div id="addCard">
             <h3>¿Desea añadir tu tarjeta de cŕedito?</h3>
             <p>Ahora puedes decidir cómo pagar la cuenta final antes de consumir en nuestro local</p>
             <p>Dale click al botón "Sí, quiero" y disfruta de la experiencia!!!</p>
@@ -26,6 +26,20 @@
           </div>
   
         </section>
+        <section>
+          <h2>Ingresa los datos de tu tarjeta</h2>
+          <form>
+            <p>Número de tarjeta</p>
+            <input/>
+            <p>Nombres completos</p>
+            <input/>
+            <p>Expira</p>
+            <input/>
+            <p>CCV</p>
+            <input/>
+            <button id="validation">Validar</button>
+          </form>
+        </section>    
         <section>
           <h2>Validación correcta</h2>
           
@@ -37,20 +51,7 @@
           
         </section> 
       </section>
-      <section>
-        <h2>Ingresa los datos de tu tarjeta</h2>
-        <form>
-          <p>Número de tarjeta</p>
-          <input/>
-          <p>Nombres completos</p>
-          <input/>
-          <p>Expira</p>
-          <input/>
-          <p>CCV</p>
-          <input/>
-          <button>Validar</button>
-        </form>
-      </section>             
+               
     </main>
    
     <footer></footer>

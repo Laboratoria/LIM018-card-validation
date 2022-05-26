@@ -1,0 +1,46 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(235, 203, 88, 0.25);
+}
+
+
+button {
+    background-color: rgba(239, 223, 139, 1);
+}
+
+#reservation{
+    margin: 15px;
+}
+#img1 {
+    margin-left: 200px;
+    margin-top: 50px;
+    float: left;
+    width: 500px;
+    height: 280;
+    border-radius: 25px;
+    
+}
+#dataOfReservation{
+    margin-right: 200px;
+    margin-top:50px;
+    float: right;  
+}
+
+#addCard {
+    margin-right: 200px;
+    margin-block: 25px;
+}
+
+
+p {
+text-align: center;
+color: black;
+
+
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
