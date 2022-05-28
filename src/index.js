@@ -1,8 +1,12 @@
 import validator from "./validator.js";
+// invoco a isValid, que recibe un parámetro
+//console.log(validator.isValid("5118420403085267"));
 
-console.log(validator);
+console.log(validator.maskify("51184888861245"));
 
-/* Muestra pantalla 2 */
+
+
+/*Muestra pantalla 2 
 const boton = document.getElementById("btn-comprar");
 
 function comprar() {
@@ -11,4 +15,4 @@ function comprar() {
 }
 
 boton.addEventListener("click", comprar);
-
+*/

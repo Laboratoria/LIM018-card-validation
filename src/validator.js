@@ -1,21 +1,61 @@
-const creditCardNumberExample = "1234567890";
 const validator = {
   isValid: (creditCardNumber) => {
-    const length = creditCardNumber.length;
-    let count = 0;
+    const reverseCardNumber = creditCardNumber.split("").reverse();
+    console.log(reverseCardNumber);
 
-    for (let i = 0; i < length; i++) {
-      let currentDigit = parseInt(creditCardNumber[i]);
-      if ((i + 1) % 2 == 0) {
-        if ((currentDigit = currentDigit * 2) > 9)
-          currentDigit = currentDigit - 9;
-        count = count + currentDigit;
+    let posicionPares = reverseCardNumber.filter(
+      (elemento, index) => index % 2 != 0 // :) Posicíon par --> Indice impar
+    );
+    console.log(posicionPares);
+
+    let posicionImpares = reverseCardNumber.filter(
+      (elemento, index) => index % 2 == 0 // Poscicón impar --> índice par
+    ); // indice impar tiene las posciones par. Aquellas que serán multiplicados por 2.  )
+    console.log(posicionImpares);
+
+    let sumaPosPares = 0;
+    let sumaPosImpares = 0;
+    let devuelve;
+
+    //posiciones pares
+    for (let i = 0; i < posicionPares.length; i++) {
+      let convierteInt = parseInt(posicionPares[i]);
+      let segundopaso = convierteInt * 2;
+      console.log(segundopaso);
+
+      if (segundopaso >= 10) {
+        segundopaso = segundopaso - 9;
       }
-      return count % 10 === 0;
+      sumaPosPares += segundopaso;
     }
+    console.log(sumaPosPares);
+
+    //Posiciones impares
+    for (let i = 0; i < posicionImpares.length; i++) {
+      sumaPosImpares += parseInt(posicionImpares[i]);
+    }
+    console.log(sumaPosImpares);
+
+    let totalSuma = 0;
+    totalSuma = sumaPosPares + sumaPosImpares;
+
+    if (totalSuma % 10 == 0) {
+      devuelve = true;
+    } else {
+      devuelve = false;
+    }
+
+    return devuelve;
   },
 
+  maskify: (creditCardNumber) => {
+    let reemplazo = "";
+    for (let i = 0; i < creditCardNumber.length - 4; i++) {
+      reemplazo += "#";
+    }
+    const cuatroDigitos = creditCardNumber.slice(0, -(-4));
+    return reemplazo + cuatroDigitos;
+  },
 };
-console.log("validar", validator.isValid(creditCardNumberExample));
 
 export default validator;
