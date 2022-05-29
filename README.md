@@ -218,11 +218,11 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
 
 ### Definición del producto
-Los usuarios de este producto son Developers y estudiantes de tecnología interesados en participar de los talleres online de REACT que se desarrollarán en junio de 2022.
+Los principales usuarios de este producto son estudiantes de tecnología y developers interesados en participar de los talleres online de REACT.
 
-Los usuarios tienen como objetivo comprar de forma rápida y segura su entrada pagando con su tarjeta de crédito.
+Los usuarios tienen como objetivo comprar su entrada y pagar con su tarjeta de crédito.
 
-El cliente accede a la página principal del evento y desde ahí ubica un botón que lo lleve a la página de compra. A continuación, llena el formulario con sus datos personales y los datos de su tarjeta.
+Creo que el producto le permite al usuario comprar de forma rápida y segura su entrada.
  
 *******************************************************************************
 En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
@@ -263,10 +263,12 @@ Estos puntos los presentarás en el `README.md`.
 
 Título: Talleres online de REACT
 
-Es la página web del evento online de REACT en LATAM. Los usuarios pueden  comprar su entrada a través del formulario de pago y realizar la compra pagando con su tarketa de crédito. Una vez ingresado los númeroos de la tarjeta, se validan y ocultan todos los dígitos menos los 4 últimos y se valida. Finalmente se muestra un mensaje de tarjeta es válida o inválida, según sea el caso.
+Es la página web del evento online de REACT en LATAM a realizarse en junio de 2022.
+Los usuarios accedem a la página principal. Encuentran una breve descripción del evento y el botón de compra. 
+En la página de compra, encuentran el formulario de pago.  
 
 Investigación UX:
-1.  Los usuarios de este producto son estudiantes de tecnología y developers de REACT basados en la siguiente historia de usaurio:
+1.  Para deterninar quiénes son los usuarios elaboré la siguiente historia de usuario:
 “Como estudiante/developer 
  Quiero comprar con mi tarjeta de crédito una entrada a través de la página web del evento 
  Para participar de los talleres de REACT online.”
