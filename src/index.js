@@ -2,7 +2,7 @@ import validator from "./validator.js";
 
 const input = document.getElementById("inputNumber");
 const botonPagar = document.getElementById("btn-pagar");
-let valor;
+let valor; 
 
 input.addEventListener("click", (e) => {
   valor = input.value; //atrapa los números de la tarjeta de crédito (como string)

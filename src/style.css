@@ -5,7 +5,7 @@
 
 body {
     font-family: Poppins;  
-    background-color: #D5F5E3;
+    background-color:  #141225; /* de gainsboro lo paso a negro*/
 }
 
 a {
@@ -13,13 +13,16 @@ a {
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 64px;
     font-weight: bold;
-    align-items: center;
+    align-items: center;  
+    color: #e1038a; /*cambio color*/
+    
 }
 
 h2, li {
-    font-size: 13px; 
+    font-size: 15px; 
+    color: gainsboro;
 }
 
 li {
@@ -30,9 +33,14 @@ h1, h2 {
     padding: 10px;
 }
 
+h2, h3, p, a {
+    color: gainsboro;  /*cambio color a blanco*/
+}
+
 h3 {
     font-size: 48px;
     padding: 8px;
+    font-weight: bold;
 }
 
 p, label {
@@ -66,24 +74,26 @@ button {
     padding: 20px;
     margin-top: 12px;
     padding: 10px;
-    background-color: #99FF00;
     border: 8px;
     border-radius: 12px;
     cursor: pointer;
     font-size: 18px;
-    margin-bottom: 18px;
+    margin-bottom: 22px;
+    background: linear-gradient(to right, #00DD3B, #99FF00);
+    /*border: 2px solid #e1038a;*/
 }
 
 button:hover {
-    background: #00DD3B;
+    background: #99FF00;
 }
 
 footer {
-    background-color: #00DD3B;
+    background-color: gray;
 }
+
 .footer-nav, .footer-end {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 5px;  
 }
 
 .nav {
@@ -96,24 +106,26 @@ footer {
     font-size: 12px;
     line-height: 15px;
     padding-bottom: 10px;
+    font-weight: bold;
 }
 
 /* PANTALLA 2 */
 
 #paso2 {
-    display: none;
+    display: none;   
 }
 
 .form-container {
     max-width: 700px;
     margin: auto;
     padding: 25px;
-    background-color: gainsboro;
+    background-color: #f7f8fb;
+    
 }
 
 .credit-card img {
     margin-top: 40px;
-    margin-left: 25%;
+    margin-left: 26%;
     margin-bottom: 15px;
 }
 
