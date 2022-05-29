@@ -218,7 +218,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
 
 ### Definición del producto
-Los usuarios de este producto son Developers y estudiantes de tecnología interesados en participar de los talleres online de React que se desarrollarán en junio de 2022.
+Los usuarios de este producto son Developers y estudiantes de tecnología interesados en participar de los talleres online de REACT que se desarrollarán en junio de 2022.
 
 Los usuarios tienen como objetivo comprar de forma rápida y segura su entrada pagando con su tarjeta de crédito.
 
@@ -261,21 +261,18 @@ Estos puntos los presentarás en el `README.md`.
 
 ##### `README.md`
 
-REACT en LATAM 
+Título: Talleres online de REACT
 
-Es la página web que promueve el evento online más grande de REACT en Latinoamérica. Los usuarios pueden comprar su entrada online y participar de los talleres que se llevará a cabo en junio de 2022.
+Es la página web del evento online de REACT en LATAM. Los usuarios pueden  comprar su entrada a través del formulario de pago y realizar la compra pagando con su tarketa de crédito. Una vez ingresado los númeroos de la tarjeta, se validan y ocultan todos los dígitos menos los 4 últimos y se valida. Finalmente se muestra un mensaje de tarjeta es válida o inválida, según sea el caso.
 
-* La imagen final de tu proyecto.
-* Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-1.  Los usuarios de este producto son estudiantes de tecnología y developers de REACT que desean participar de los diverosos talleres online durantes los tres días del evento. Para este punto se desarrolló la siguiente historia de usuario:
-
+Investigación UX:
+1.  Los usuarios de este producto son estudiantes de tecnología y developers de REACT basados en la siguiente historia de usaurio:
 “Como estudiante/developer 
  Quiero comprar con mi tarjeta de crédito una entrada a través de la página web del evento 
  Para participar de los talleres de REACT online.”
 
-2.  El producto permite a los usuarios pagar através de la web, para ello, se dirijen al formulario de pago. Este formulario tiene los campos para llenar us datos personales y los de su tarjeta de crédito. Finalmente se valida el número de la tarjeta. **********************************************************************************************************************************************
+2.  El producto ayuda a los usarios a comprar de forma rápida y segura su entrada con su tarjeta de crédito.
+**********************************************************************************************************************************************
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
