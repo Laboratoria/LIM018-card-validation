@@ -218,7 +218,13 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
 
 ### Definición del producto
+Los usuarios de este producto son Developers y estudiantes de tecnología interesados en participar de los talleres online de React que se desarrollarán en junio de 2022.
 
+Los usuarios tienen como objetivo comprar de forma rápida y segura su entrada pagando con su tarjeta de crédito.
+
+El cliente accede a la página principal del evento y desde ahí ubica un botón que lo lleve a la página de compra. A continuación, llena el formulario con sus datos personales y los datos de su tarjeta.
+ 
+*******************************************************************************
 En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
 para definir el producto final a nivel de experiencia y de interfaz.
 
@@ -255,6 +261,21 @@ Estos puntos los presentarás en el `README.md`.
 
 ##### `README.md`
 
+REACT en LATAM 
+
+Es la página web que promueve el evento online más grande de REACT en Latinoamérica. Los usuarios pueden comprar su entrada online y participar de los talleres que se llevará a cabo en junio de 2022.
+
+* La imagen final de tu proyecto.
+* Investigación UX:
+  1. Explicar quiénes son los usuarios y los objetivos en relación con el
+    producto.
+1.  Los usuarios de este producto son estudiantes de tecnología y developers de REACT que desean participar de los diverosos talleres online durantes los tres días del evento. Para este punto se desarrolló la siguiente historia de usuario:
+
+“Como estudiante/developer 
+ Quiero comprar con mi tarjeta de crédito una entrada a través de la página web del evento 
+ Para participar de los talleres de REACT online.”
+
+2.  El producto permite a los usuarios pagar através de la web, para ello, se dirijen al formulario de pago. Este formulario tiene los campos para llenar us datos personales y los de su tarjeta de crédito. Finalmente se valida el número de la tarjeta. **********************************************************************************************************************************************
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
