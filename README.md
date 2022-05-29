@@ -264,11 +264,14 @@ Estos puntos los presentarás en el `README.md`.
 Título: Talleres online de REACT
 
 Es la página web del evento online de REACT en LATAM a realizarse en junio de 2022.
-Los usuarios accedem a la página principal. Encuentran una breve descripción del evento y el botón de compra. 
-En la página de compra, encuentran el formulario de pago.  
+
+Los usuarios acceden a la página principal. Encuentran una breve descripción del evento y el botón de compra. 
+
+Una vez en la página de compra, acceden al formulario de pago.  
 
 Investigación UX:
 1.  Para deterninar quiénes son los usuarios elaboré la siguiente historia de usuario:
+
 “Como estudiante/developer 
  Quiero comprar con mi tarjeta de crédito una entrada a través de la página web del evento 
  Para participar de los talleres de REACT online.”
