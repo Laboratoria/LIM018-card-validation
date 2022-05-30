@@ -8,9 +8,7 @@ button {
     background-color: rgba(239, 223, 139, 1);
 }
 
-#reservation{
-    margin: 15px;
-}
+
 section.figure {
     margin-left: 200px;
     margin-top: 50px;
@@ -30,16 +28,7 @@ section.figure {
     border-radius: 25px;
 
 }
-#dataOfReservation{
-    margin-right: 200px;
-    margin-top:50px;
-    float: right;  
-}
 
-#addCard {
-    margin-right: 200px;
-    margin-block: 25px;
-}
 
 
 p {
