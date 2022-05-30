@@ -283,22 +283,24 @@ Investigación UX:
 
  En papel y lápiz:
  
- * Prototipo inicial:
+ Prototipo inicial:
+ 
  ![Evento online REACT](Prototipo_lapiz.jpg)
  
 
  En Figma:
  
- * Prototipo inicial:
+ Prototipo inicial:
+ 
  ![Evento online REACT](Prototipo_inicial.png)
  
  ![Evento online REACT](Prototipo_inicial_.png)
 
  
- 4. El feedback recibido fue el de Utilizar una paleta de colores.
+ 4. El feedback recibido fue el de utilizar una paleta de colores.
  
  
- 5. A continuación la imagen del prototipo final:
+ 5. La imagen final del prototipo es la siguiente:
  
  ![Evento online REACT](Prototipo_final_1.png)
  
