@@ -265,18 +265,33 @@ Título: Talleres online de REACT
 
 Es la página web del evento online de REACT en LATAM a realizarse en junio de 2022.
 
-Los usuarios acceden a la página principal. Encuentran una breve descripción del evento y el botón de compra. 
+Los usuarios acceden a la página principal. Encuentran una breve descripción del evento y un botón para adquirir los tickets. Este botón los lleva a 
 
-Una vez en la página de compra, acceden al formulario de pago.  
+la página de compra, llenan al formulario de pago y compran. 
 
 Investigación UX:
-1.  Para deterninar quiénes son los usuarios elaboré la siguiente historia de usuario:
+
+1. Para determinar quiénes son los usuarios elaboré la siguiente historia de usuario:
 
 “Como estudiante/developer 
  Quiero comprar con mi tarjeta de crédito una entrada a través de la página web del evento 
- Para participar de los talleres de REACT online.”
+ Para participar de los talleres online de REACT.”
 
-2.  El producto ayuda a los usarios a comprar de forma rápida y segura su entrada con su tarjeta de crédito.
+2. El producto ayuda a los usarios a comprar de forma rápida y segura su entrada con su tarjeta de crédito.
+
+3. A continuación detallo la evolución del prototipo:
+
+ EN PAPEL:
+ * Prototipo inicial:
+ 
+ EN FIGMA:
+ * Proototipo inicial:
+ 
+ 4. Utilizar una peleta de colores.
+ 
+ 5. Prototipo final:
+
+
 **********************************************************************************************************************************************
 Debe contener lo siguiente:
 
