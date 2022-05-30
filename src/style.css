@@ -13,10 +13,10 @@ a {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 70px;
     font-weight: bold;
     align-items: center;  
-    color: #e1038a; /*cambio color*/
+    color: #e1038a; /*cambio color a fucsia*/
     
 }
 
@@ -85,6 +85,9 @@ button {
 
 button:hover {
     background: #99FF00;
+    border: 3px solid #00DD3B;
+    background-color:  #141225;
+    color: #00DD3B;
 }
 
 footer {
@@ -167,8 +170,18 @@ footer {
     margin-left: 25px;
 }
 
+#validacion {
+    margin-left: 38%;   
+}
+
 .btn-pagar {
     width: 30%;
     margin-left: 33%;
-    margin-bottom: 18px;  
+    margin-bottom: 18px;   
+}
+
+.btn-pagar:hover {
+    border: 3px solid #00DD3B;
+    background-color:  #f7f8fb;
+    color: #00DD3B;
 }

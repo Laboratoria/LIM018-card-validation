@@ -2,20 +2,22 @@ import validator from "./validator.js";
 
 const input = document.getElementById("inputNumber");
 const botonPagar = document.getElementById("btn-pagar");
-let valor; 
-
-input.addEventListener("click", (e) => {
-  valor = input.value; //atrapa los números de la tarjeta de crédito (como string)
-});
+const validacion = document.getElementById("validacion");
 
 botonPagar.addEventListener("click", (e) => {
   e.preventDefault();
-  let number = valor; // a la variable number se le pasa el valor del input por referencia.
+  let number = input.value;
 
   if (validator.isValid(number)) {
-    alert("tarjeta válida");
+    validacion.innerHTML = "TARJETA VÁLIDA";
+    //alert("tarjeta válida");
+    //obtener el número enmascarado
+    const maskNumber = validator.maskify(number);
+    //actualizar el input con el valor enmascarado
+    input.value = maskNumber;
   } else {
-    alert("tarjeta inválida");
+    validacion.innerHTML = "TARJETA INVÁLIDA";
+    //alert("tarjeta inválida");
   }
 });
 

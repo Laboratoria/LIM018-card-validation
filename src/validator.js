@@ -53,7 +53,12 @@ const validator = {
     for (let i = 0; i < creditCardNumber.length - 4; i++) {
       reemplazo += "#";
     }
-    const cuatroDigitos = creditCardNumber.slice(0, -(-4));
+
+    const cuatroDigitos = creditCardNumber.substring(
+      creditCardNumber.length - 4,
+      creditCardNumber.length
+    );
+    //const cuatroDigitos = creditCardNumber.slice(-4, 0);
     return reemplazo + cuatroDigitos;
   },
 };
