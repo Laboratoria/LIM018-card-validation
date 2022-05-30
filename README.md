@@ -287,7 +287,7 @@ Investigación UX:
  
 <<<<<<< HEAD
  EN FIGMA:
- * Proototipo inicial:
+ * Prototipo inicial:
  ![Evento online REACT](Prototipo_inicial.png)
  ![Evento online REACT](Prototipo_inicial_.png)
 =======
@@ -295,11 +295,11 @@ Investigación UX:
  * Prototipo inicial:
 >>>>>>> 745bc58546bce7c946990d52b59c17be143bd807
  
- 4. El feedback recibido fue de Utilizar una peleta de colores.
+ 4. El feedback recibido fue el de Utilizar una paleta de colores.
  
  5. Prototipo final:
- [Evento online REACT](Prototipo_final_1.png)
- [Evento online REACT](Prototipo_final_2.png)
+ ![Evento online REACT](Prototipo_final_1.png)
+ ![Evento online REACT](Prototipo_final_2.png)
 
 
 **********************************************************************************************************************************************
