@@ -11,7 +11,7 @@ button {
 #reservation{
     margin: 15px;
 }
-#img1 {
+section.figure {
     margin-left: 200px;
     margin-top: 50px;
     float: left;
@@ -19,6 +19,16 @@ button {
     height: 280;
     border-radius: 25px;
     
+}
+
+#img1{
+    margin-left: 200px;
+    margin-top: 50px;
+    float: left;
+    width: 500px;
+    height: 280;
+    border-radius: 25px;
+
 }
 #dataOfReservation{
     margin-right: 200px;
