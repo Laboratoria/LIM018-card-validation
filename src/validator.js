@@ -21,12 +21,12 @@ const validator = {
     
   },
   maskify : (n)=>{
-  let digits = n.toString();
+  let digits = n.toString().split('');
   console.log(digits);
-    if(digits.length>1){
+  digits.map((digit,i)=> i<15?digit="#":digit)
+    
     
     console.log(digits);
-  } 
   
     
 // recorrer el array con map()
