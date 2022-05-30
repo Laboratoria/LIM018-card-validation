@@ -261,7 +261,7 @@ Estos puntos los presentarás en el `README.md`.
 
 ##### `README.md`
 
-Título: Talleres online de REACT
+Título del proyecto: Talleres online de REACT
 
 Es la página web del evento online de REACT en LATAM a realizarse en junio de 2022.
 
@@ -281,20 +281,25 @@ Investigación UX:
 
 3. A continuación detallo la evolución del prototipo:
 
- EN PAPEL:
+ En papel y lápiz:
  * Prototipo inicial:
  ![Evento online REACT](Prototipo_lapiz.jpg)
  
+<<<<<<< HEAD
  EN FIGMA:
  * Proototipo inicial:
  ![Evento online REACT](Prototipo_inicial.png)
  ![Evento online REACT](Prototipo_inicial_.png)
+=======
+ En Figma:
+ * Prototipo inicial:
+>>>>>>> 745bc58546bce7c946990d52b59c17be143bd807
  
- 4. Utilizar una peleta de colores.
+ 4. El feedback recibido fue de Utilizar una peleta de colores.
  
  5. Prototipo final:
- ![Evento online REACT](Prototipo_final_1.png)
- ![Evento online REACT](Prototipo_final_2.png)
+ [Evento online REACT](Prototipo_final_1.png)
+ [Evento online REACT](Prototipo_final_2.png)
 
 
 **********************************************************************************************************************************************
