@@ -283,13 +283,18 @@ Investigación UX:
 
  EN PAPEL:
  * Prototipo inicial:
+ ![Evento online REACT](Prototipo_lapiz.jpg)
  
  EN FIGMA:
  * Proototipo inicial:
+ ![Evento online REACT](Prototipo_inicial.png)
+ ![Evento online REACT](Prototipo_inicial_.png)
  
  4. Utilizar una peleta de colores.
  
  5. Prototipo final:
+ ![Evento online REACT](Prototipo_final_1.png)
+ ![Evento online REACT](Prototipo_final_2.png)
 
 
 **********************************************************************************************************************************************
