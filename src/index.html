@@ -32,14 +32,23 @@
         <section>
           <h2>Ingresa los datos de tu tarjeta</h2>
           <form>
-            <p>Número de tarjeta</p>
-            <input/>
-            <p>Nombres completos</p>
-            <input/>
-            <p>Expira</p>
-            <input/>
-            <p>CCV</p>
-            <input/>
+            <label for="numberCard">
+              <span> Número de tarjeta </span>
+              <input type="number" id="numberCard" placeholder="1234 5678 1234 5678"/>
+            </label>
+            <label for="name">
+              <span> Nombres completos </span>
+              <input type="text" id="name" placeholder="Leo Ruiz"/>
+            </label>
+            <label for="expiration">
+              <span> Expira </span>
+              <input type="month" id="expiration" placeholder="17/02/2024"/>
+            </label>
+            <label for="ccv">
+              <span> CCV </span>
+              <input type="number" id="ccv" placeholder="177"/>
+            </label>
+            
             <button id="validation">Validar</button>
           </form>
         </section>    
