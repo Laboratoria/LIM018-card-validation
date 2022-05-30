@@ -267,7 +267,7 @@ Es la página web del evento online de REACT en LATAM a realizarse en junio de 2
 
 Los usuarios acceden a la página principal. Encuentran una breve descripción del evento y un botón para adquirir los tickets. Este botón los lleva a 
 
-la página de compra, llenan al formulario de pago y compran. 
+la página de compra, donde pueden llenar un formulario de pago y comprar. 
 
 Investigación UX:
 
@@ -277,27 +277,27 @@ Investigación UX:
  Quiero comprar con mi tarjeta de crédito una entrada a través de la página web del evento 
  Para participar de los talleres online de REACT.”
 
-2. El producto ayuda a los usarios a comprar de forma rápida y segura su entrada con su tarjeta de crédito.
+2. El producto ayuda a los usuarios a comprar de forma rápida y segura su entrada con una tarjeta de crédito.
 
 3. A continuación detallo la evolución del prototipo:
 
  En papel y lápiz:
+ 
  * Prototipo inicial:
  ![Evento online REACT](Prototipo_lapiz.jpg)
  
-<<<<<<< HEAD
- EN FIGMA:
+
+ En Figma:
+ 
  * Prototipo inicial:
  ![Evento online REACT](Prototipo_inicial.png)
  ![Evento online REACT](Prototipo_inicial_.png)
-=======
- En Figma:
- * Prototipo inicial:
->>>>>>> 745bc58546bce7c946990d52b59c17be143bd807
+
  
  4. El feedback recibido fue el de Utilizar una paleta de colores.
  
- 5. Prototipo final:
+ 5. A continuación la imagen del prototipo final:
+ 
  ![Evento online REACT](Prototipo_final_1.png)
  ![Evento online REACT](Prototipo_final_2.png)
 
