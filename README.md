@@ -291,14 +291,17 @@ Investigación UX:
  
  * Prototipo inicial:
  ![Evento online REACT](Prototipo_inicial.png)
+ 
  ![Evento online REACT](Prototipo_inicial_.png)
 
  
  4. El feedback recibido fue el de Utilizar una paleta de colores.
  
+ 
  5. A continuación la imagen del prototipo final:
  
  ![Evento online REACT](Prototipo_final_1.png)
+ 
  ![Evento online REACT](Prototipo_final_2.png)
 
 
