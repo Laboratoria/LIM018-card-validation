@@ -218,7 +218,13 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
 
 ### Definición del producto
+Los principales usuarios de este producto son estudiantes de tecnología y developers interesados en participar de los talleres online de REACT.
 
+Los usuarios tienen como objetivo comprar su entrada y pagar con su tarjeta de crédito.
+
+Creo que el producto le permite al usuario comprar de forma rápida y segura su entrada.
+ 
+*******************************************************************************
 En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
 para definir el producto final a nivel de experiencia y de interfaz.
 
@@ -255,6 +261,23 @@ Estos puntos los presentarás en el `README.md`.
 
 ##### `README.md`
 
+Título: Talleres online de REACT
+
+Es la página web del evento online de REACT en LATAM a realizarse en junio de 2022.
+
+Los usuarios acceden a la página principal. Encuentran una breve descripción del evento y el botón de compra. 
+
+Una vez en la página de compra, acceden al formulario de pago.  
+
+Investigación UX:
+1.  Para deterninar quiénes son los usuarios elaboré la siguiente historia de usuario:
+
+“Como estudiante/developer 
+ Quiero comprar con mi tarjeta de crédito una entrada a través de la página web del evento 
+ Para participar de los talleres de REACT online.”
+
+2.  El producto ayuda a los usarios a comprar de forma rápida y segura su entrada con su tarjeta de crédito.
+**********************************************************************************************************************************************
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
