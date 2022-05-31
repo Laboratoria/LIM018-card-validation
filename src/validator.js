@@ -2,6 +2,7 @@ const validator = {
   
   isValid : (n)=> {
     let digits = n.toString().split('').map(Number);
+    //console.log(typeof digits)
       // condition 
     if (digits.length>15){
       
@@ -21,22 +22,13 @@ const validator = {
     
   },
   maskify : (n)=>{
-    let digits= n.length;
-    for (let i = 0; i< digits-4;i++){
-      n[i] = '#';
-      
+    let digits= Array.from(n);
+      for (let i = 0; i< digits.length-4;i++){
+      digits[i] = '#';
+       
     }
-console.log(n);
-  //let digits = n.toString().split('');
-  //console.log(digits);
-
-
-  //digits.map((digit,i)=> digits.length-4>10?digits.fill('#',i):digit).toString();
-    
-    
-   // console.log(digits);
-  
-    
+    return digits.toString().replace(/,/g,"");
+        
 // recorrer el array con map()
 // filtrar con filter()las posiciones 0 al 12 del arreglo
 // Reemplazar con replace() con #
