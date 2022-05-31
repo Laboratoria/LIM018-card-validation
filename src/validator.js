@@ -23,10 +23,12 @@ const validator = {
   },
   maskify : (n)=>{
     let digits= Array.from(n);
-      for (let i = 0; i< digits.length-4;i++){
-      digits[i] = '#';
+    digits.map((acc, i)=>i<digits.length-4?digits[i]='#':digits)
+
+      //for (let i = 0; i< digits.length-4;i++){
+      //digits[i] = '#';
        
-    }
+    //}
     return digits.toString().replace(/,/g,"");
         
 // recorrer el array con map()
