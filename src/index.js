@@ -6,8 +6,11 @@ import validator from './validator.js';
 //validator.maskify('4556364607935616');
 //validator.maskify('1');
 //validator.maskify("helloworld");
-
+validator.isValid()
 validator.maskify('4083952015263');
 validator.isValid('4083952015263');
+
+//let ccv= document.getElementById('ccv')
+
 
 

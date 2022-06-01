@@ -31,10 +31,7 @@ const validator = {
     //}
     return digits.toString().replace(/,/g,"");
         
-// recorrer el array con map()
-// filtrar con filter()las posiciones 0 al 12 del arreglo
-// Reemplazar con replace() con #
-// Llegué hasta aquí
+
   },
   
   };
