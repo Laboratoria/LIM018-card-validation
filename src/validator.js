@@ -29,7 +29,8 @@ const validator = {
       //digits[i] = '#';
        
     //}
-    return digits.toString().replace(/,/g,"");
+     return digits.toString().replace(/,/g,"");
+  
         
 
   },

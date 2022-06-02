@@ -6,14 +6,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header> <h1> Detalles de tu reserva en APRIORI </h1></header>
-    <main class="cardValidation"> 
-        <section class="cardValidation__reservation">
+    
+    <main class="main"> 
+        <section id="reservation" class="main__reservation">
+          <h1> Detalles de tu reserva en APRIORI </h1>
           <figure>
             <img id="img1" src="./img/aprioriReservation.jpeg" alt="texto descriptivo"/>
           </figure>
           
-          <div class="cardValidation__reservation__data">
+          <div id="data" class="main__reservation__data">
             <p> Reserva hecha</p>
             <p> Mesa Nro. 12</p>
             <p> Martes 24 a las 20:30 hrs.</p>
@@ -21,7 +22,7 @@
             <p> Av. Los Caminos 123</p>
             
           </div>
-          <div class="cardValidation__reservation__add">
+          <div id="add" class="main__reservation__add">
             <h3>¿Desea añadir su tarjeta de cŕedito?</h3>
             <p>Ahora puedes decidir cómo pagar la cuenta final antes de consumir en nuestro local</p>
             <p>Dale click al botón "Sí, quiero" y disfruta de la experiencia!!!</p>
@@ -29,9 +30,8 @@
           </div>
   
         </section>
-        <section class="cardValidation__validation">
-          
-          <form class= "cardValidtation__validation__form" action="">
+        <section id= "form" class="main__validation">
+          <form class= "main__validation__form" action="">
             <h2>Ingresa los datos de tu tarjeta</h2>
             <label for="numberCard">
               <span> Número de tarjeta </span>
@@ -47,23 +47,25 @@
             </label>
             <label for="ccv">
               <span> CCV </span>
-              <input type="number" id="ccv" placeholder="177" name="ccv" required/>
+              <input type="text" id="ccv" placeholder="177" name="ccv" required/>
             </label>
-            <input type="submit" value="Validar"/>
-            
+            <input type="submit" value="Validar"/>          
           </form>
         </section>    
-        <section class="cardValidation__correct">
-          <div>
+        <section id="correct" class="main__correct">
+          <div class="main__correct__text">
             <h2>Validación correcta</h2>
-          
             <p>El total de la cuenta de la mesa Nro.12 será cargado a la cuenta de Leo Ruiz*</p>
-            
             <p>*Solo se cargarán a tu tarjeta aquellos gastos que se realicen en tu mesa reservada</p>
-            
             <button>Aceptar</button>
           </div>
-                    
+        </section> 
+        <section id="incorrect" class="main__incorrect">
+          <div class="main__incorrect__text">
+            <h2>Validación Incorrecta</h2>
+            <p>Por favor, revisa bien los datos ingresados</p>
+            <button>Aceptar</button>
+          </div>
         </section> 
                      
     </main>
