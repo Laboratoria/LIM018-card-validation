@@ -5,7 +5,7 @@ const validator = {
     
        //console.log(typeof digits)
       // condition 
-    if (digits.length>15){
+    if (digits.length>10){
       //double position par
       digits = digits.reverse().map((digit,i)=> i%2===0?digit*2:digit);
       //console.log(digits)
