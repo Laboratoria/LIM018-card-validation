@@ -38,7 +38,7 @@ if (addition%10==0){
 maskify:function(creditCardNumber){
   let four = creditCardNumber.slice(0,creditCardNumber.length-4);
   let Array=[];
-  for (let j=0; j<four.length; i++){
+  for (let j=0; j<four.length; j++){
     Array.push("#");
   }
   let textocomplete=Array.join("")+creditCardNumber.slice(-4);
