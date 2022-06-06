@@ -1,54 +1,48 @@
-const validarCard = (numCard) =>{
+const validator = {
 
-  if(isNaN(Number(numCard))) return false;
-  
-  if(numCard.length !== 16) return false;
+  isValid:function(creditCardNumber){
+    // obtener la inversa del numero indicado
+    const numReverse= creditCardNumber.split("").reverse();
+    const newnumReverse=[];
 
-  let array = [...numCard].reverse();
+for (let i=0; i<numReverse.length; i++){
+  //validamos que el numero sea par 
+  if(i%2!=0){
+    let multiplication=numReverse[i]*2;
+    if (multiplication>9){
+      //va pasar como caracter de texto 
+      let convertString=multiplication.toString();
 
-  array = array.map( e => Number(e));
-
-  let aux = 1;
-
-  array = array.map( e => {
-    if(aux % 2 === 0){
-      e = e * 2;
-      if(e >= 10){
-        e -= 9
-      }
-    }
-    aux++;
-    return e;
-  })
-
-  let total = 0;
-  array.forEach( e => total += e)
-
-  return (total % 10 === 0) ? true : false
-}
-
-const tarjetaMask = (numCard) => {
-  let array = [...numCard];
-  let salida = "";
-
-  let aux = 1;
-
-  for(let a of array){
-    if(aux < 13){
-      salida += "*";
+      //ahora convertimos a un numero y sumamos
+      let result=parseInt(convertString.charAt(0))+parseInt(convertString.charAt(1));
+      newnumReverse.push(result);
     }
     else{
-      salida += a
+      newnumReverse.push(multiplication);
     }
-    aux++;
+  }else{
+    newnumReverse.push(numReverse[i]);
   }
-
-  return salida
 }
+let addition=0;
+for (let i=0; i<newnumReverse.length; i++){
+  addition=addition+parseInt(newnumReverse[i]);
+}
+if (addition%10==0){
+  return true;
+}else{
+  return false;
+}
+  }, 
 
-const validator = {
-  validarCard,
-  tarjetaMask
-};
-
-export default validator;
+maskify:function(creditCardNumber){
+  let four = creditCardNumber.slice(0,creditCardNumber.length-4);
+  let Array=[];
+  for (let j=0; j<four.length; i++){
+    Array.push("#");
+  }
+  let textocomplete=Array.join("")+creditCardNumber.slice(-4);
+  return textocomplete;
+}
+}
+export default validator; 
