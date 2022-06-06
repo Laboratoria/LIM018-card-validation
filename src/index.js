@@ -9,7 +9,7 @@ import validator from './validator.js';
 validator.isValid()
 validator.maskify('4083952015263');
 validator.isValid('4083952015263');
-
+console.log(validator);
 //let ccv= document.getElementById('ccv')
 
 
