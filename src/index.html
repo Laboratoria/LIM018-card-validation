@@ -8,7 +8,7 @@
   <body>
     
     <main class="main"> 
-      <h1 class="main__reservation__title"> Detalles de tu reserva en APRIORI </h1>
+      <h1 id = "title" class="main__reservation__title"> Detalles de tu reserva en APRIORI </h1>
         <section id="reservation" class="main__reservation">
           
           <figure class="main__reservation__img">
@@ -27,12 +27,12 @@
             <h3>¿Desea añadir su tarjeta de cŕedito?</h3>
             <p>Ahora puedes decidir cómo pagar la cuenta final antes de consumir en nuestro local</p>
             <p>Dale click al botón "Sí, quiero" y disfruta de la experiencia!!!</p>
-            <button><h4>Sí, quiero</h4></button>
+            <button id="btn_yes"><h4>Sí, quiero</h4></button>
           </div>
   
         </section>
-        <section id= "form" class="main__validation">
-          <form class= "main__validation__form" action="">
+        <section id= "form_s" class="main__validation">
+          <form id ="form_f" class= "main__validation__form" action="">
             <h2>Ingresa los datos de tu tarjeta</h2>
             <label for="numberCard">
               <span> Número de tarjeta </span>
@@ -50,7 +50,7 @@
               <span> CCV </span>
               <input type="text" id="ccv" placeholder="177" name="ccv" required/>
             </label>
-            <input type="submit" value="Validar"/>          
+            <input id="input_validation"type="submit" value="Validar"/>          
           </form>
         </section>    
         <section id="correct" class="main__correct">
@@ -58,14 +58,14 @@
             <h2>Validación correcta</h2>
             <p>El total de la cuenta de la mesa Nro.12 será cargado a la cuenta de Leo Ruiz*</p>
             <p>*Solo se cargarán a tu tarjeta aquellos gastos que se realicen en tu mesa reservada</p>
-            <button><h4>Aceptar</h4></button>
+            <button id="btn_correct"><h4>Aceptar</h4></button>
           </div>
         </section> 
         <section id="incorrect" class="main__incorrect">
           <div class="main__incorrect__text">
             <h2>Validación Incorrecta</h2>
             <p>Por favor, revisa bien los datos ingresados</p>
-            <button><h4>Aceptar</h4></button>
+            <button id="btn_incorrect"><h4>Aceptar</h4></button>
           </div>
         </section> 
                      
