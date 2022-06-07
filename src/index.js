@@ -33,8 +33,8 @@ pago.addEventListener('click', () => {
      cvv.value = ''
      return;
    }
-
-  const validar = validator.validarCard(numero.value);
+//argumento de la funcion isValid
+  const validar = validator.isValid(numero.value);
   
    if(validar) {
      const tarjetamaskify = validator.maskify(numero.value);

@@ -3,7 +3,7 @@ const validator = {
   isValid:function(creditCardNumber){
     // obtener la inversa del numero indicado
     const numReverse= creditCardNumber.split("").reverse();
-    const newnumReverse=[];
+    let newnumReverse=[];
 
 for (let i=0; i<numReverse.length; i++){
   //validamos que el numero sea par 
