@@ -10,6 +10,12 @@ let input_validation = document.getElementById("input_validation");
 let btn_correct = document.getElementById("btn_correct");
 let btn_incorrect = document.getElementById("btn_incorrect");
 
+//window.addEventListener("load", () => {
+    //console.log("Todos los recursos terminaron de cargar!")
+  //  form_s.style.display= "none";
+  //  correct.style.display= "none";
+  //  incorrect.style.display="none";
+//});
 
 btn_yes.addEventListener(("click"), () => {
     //console.log("hola");

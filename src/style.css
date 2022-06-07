@@ -62,3 +62,47 @@
         margin-top: 5px;
     }
     
+.main__validation .main__validation__form {
+       text-align: center;
+}
+
+#img2 {
+    width: 1093px;
+    height: 259;
+    border-radius: 5px;
+}
+
+.main__validation {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.main__validation .main__validation__img{
+    flex-grow: 50;
+    margin-left: 130px;
+    margin-top: 80px;
+}
+
+.main__correct {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.main__correct .main__correct__img{
+    flex-grow: 100;
+    margin-left: 130px;
+    margin-top: 80px;
+}
+
+.main__correct .main__correct__text{
+    flex-grow: 100;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30PX;
+}
+
+.main__validation__form {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
