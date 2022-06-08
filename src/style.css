@@ -1,108 +1,106 @@
-*{
-    box-sizing:border-box;
-    padding: 0;
-    margin: 0;
-    }
-    body {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        background-color: rgba(235, 203, 88, 0.25);
-    }
-        
-    button {
-        background-color: rgba(239, 223, 139, 1);
-        margin-left: 600px;
-        margin-top: 30px;
-        width: 100px;
-        height: 30px;
-        border-radius: 15px;
-    }
-    .main__reservation{
-        display: inline-flex;
-        flex-wrap: wrap;
-    }
-    
-    .main__reservation .main__reservation__img{
-        flex-grow: 50;
-        margin-left: 250px;
-        margin-top: 50px;
-    }
-    .main__reservation .main__reservation__data{
-        flex-grow: 50;
-        margin-right: 200px;
-        margin-top: 100px;
-    }
-    .main__reservation .main__reservation__add{
-        flex-grow: 100;
-        margin-top: 25px;
-    }
-    
-     #img1 {
-        /*margin-top: 100px;
-        margin-left: 100px;*/
-        width: 500px;
-        height: 280;
-        border-radius: 25px;
-        
-    }
-    
-    
-    p {
-    text-align: center;
-    color: black;
-    margin-top: 10px;
-    
-    }
-    
-    h1, h2 {
-        text-align: center;
-        margin-top: 50px;
-    }
-    h3{
-        text-align: center;
-        margin-top: 5px;
-    }
-    
-.main__validation .main__validation__form {
-       text-align: center;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgba(235, 203, 88, 0.25);
 }
 
-#img2 {
-    width: 1093px;
-    height: 259;
-    border-radius: 5px;
+button {
+  background-color: rgba(239, 223, 139, 1);
+  margin-left: 600px;
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+}
+.main__reservation {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.main__reservation .main__reservation__img {
+  flex-grow: 50;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+.main__reservation .main__reservation__data {
+  flex-grow: 50;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+.main__reservation .main__reservation__add {
+  flex-grow: 100;
+  margin-top: 25px;
+}
+
+#img__1 {
+  /*margin-top: 100px;
+        margin-left: 100px;*/
+  width: 500px;
+  height: 280;
+  border-radius: 25px;
+}
+
+p {
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+h3 {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.main__validation .main__validation__form {
+  text-align: center;
+}
+
+#img__2 {
+  width: 1093px;
+  height: 259;
+  border-radius: 5px;
 }
 
 .main__validation {
-    display: inline-flex;
-    flex-wrap: wrap;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 
-.main__validation .main__validation__img{
-    flex-grow: 50;
-    margin-left: 130px;
-    margin-top: 80px;
+.main__validation .main__validation__img {
+  flex-grow: 50;
+  margin-left: 130px;
+  margin-top: 80px;
 }
 
 .main__correct {
-    display: inline-flex;
-    flex-wrap: wrap;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 
-.main__correct .main__correct__img{
-    flex-grow: 100;
-    margin-left: 130px;
-    margin-top: 80px;
+.main__correct .main__correct__img {
+  flex-grow: 100;
+  margin-left: 130px;
+  margin-top: 80px;
 }
 
-.main__correct .main__correct__text{
-    flex-grow: 100;
-    margin-left: 50px;
-    margin-top: 30px;
-    margin-bottom: 30PX;
+.main__correct .main__correct__text {
+  flex-grow: 100;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .main__validation__form {
-    display: inline-flex;
-    flex-wrap: wrap;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
-

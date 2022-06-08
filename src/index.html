@@ -1,85 +1,122 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Apriori</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
-    <main class="main"> 
-      <h1 id = "title" class="main__reservation__title"> Detalles de tu reserva en APRIORI </h1>
-        <section id="reservation" class="main__reservation">
-          
-          <figure class="main__reservation__img">
-            <img id="img1" src="./img/aprioriReservation.jpeg" alt="texto descriptivo"/>
-          </figure>
-          
-          <div id="data" class="main__reservation__data">
-            <h3> Reserva hecha</h3>
-            <h3> Mesa Nro. 12</h3>
-            <h3> Martes 24 a las 20:30 hrs.</h3>
-            <h3> A nombre de Leo Ruiz</h3>
-            <h3> Av. Los Caminos 123</h3>
-            
-          </div>
-          <div id="added" class="main__reservation__add">
-            <h3>¿Desea añadir su tarjeta de cŕedito?</h3>
-            <p>Ahora puedes decidir cómo pagar la cuenta final antes de consumir en nuestro local</p>
-            <p>Dale click al botón "Sí, quiero" y disfruta de la experiencia!!!</p>
-            <button id="btn_yes"><h4>Sí, quiero</h4></button>
-          </div>
-  
-        </section>
-        <section id= "form_s" class="main__validation">
-          <figure class="main__validation__img">
-            <img id="img2" src="./img/aprioriValidation.png" alt="texto descriptivo"/>
-            <h2>Ingresa los datos de tu tarjeta</h2>
-         
-          </figure>
-            
-          <form id ="form_f" class= "main__validation__form" action="">
-            
-            <label for="numberCard" class="main__validation__form__number">
-              <span> Número de tarjeta </span>
-              <input type="text" id="numberCard" placeholder="1234 5678 1234 5678" name="numberCard" required/>
-            </label>
-            <label for="name" class="main__validation__form__name">
-              <span> Nombres completos </span>
-              <input type="text" id="name" placeholder="Leo Ruiz" name="name" required/>
-            </label>
-            <label for="expiration" class="main__validation__form__exp">
-              <span> Expira </span>
-              <input type="month" id="expiration" placeholder="17/02/2024" name="expiration" required/>
-            </label>
-            <label for="ccv" class="main__validation__form__ccv">
-              <span> CCV </span>
-              <input type="text" id="ccv" placeholder="177" name="ccv" required/>
-            </label>
-            <input id="input_validation" type="submit" value="Validar"/>          
-          </form>
-        </section>    
-        <section id="correct" class="main__correct">
-          <figure class="main__correct__img">
-            <img id="img2" src="./img/aprioriValidation.png" alt="texto descriptivo"/>
-          </figure>
-          <div class="main__correct__text">
-            <h2>Validación correcta</h2>
-            <p>El total de la cuenta de la mesa Nro.12 será cargado a la cuenta de Leo Ruiz*</p>
-            <p>*Solo se cargarán a tu tarjeta aquellos gastos que se realicen en tu mesa reservada</p>
-            <button id="btn_correct"><h4>Aceptar</h4></button>
-          </div>
-        </section> 
-        <section id="incorrect" class="main__incorrect">
-          <div class="main__incorrect__text">
-            <h2>Validación Incorrecta</h2>
-            <p>Por favor, revisa bien los datos ingresados</p>
-            <button id="btn_incorrect"><h4>Aceptar</h4></button>
-          </div>
-        </section> 
-                     
+    <main class="main">
+      <h1 id="title" class="main__reservation__title">
+        Detalles de tu reserva en APRIORI
+      </h1>
+      <section id="reservation" class="main__reservation">
+        <figure class="main__reservation__img">
+          <img
+            id="img__1"
+            src="./img/aprioriReservation.jpeg"
+            alt="texto descriptivo"
+          />
+        </figure>
+
+        <div id="data" class="main__reservation__data">
+          <h3>Reserva hecha</h3>
+          <h3>Mesa Nro. 12</h3>
+          <h3>Martes 24 a las 20:30 hrs.</h3>
+
+          <h3>A nombre de Leo Ruiz</h3>
+          <h3>Av. Los Caminos 123</h3>
+        </div>
+        <div id="added" class="main__reservation__add">
+          <h3>¿Desea añadir su tarjeta de cŕedito?</h3>
+          <p>
+            Ahora puedes decidir cómo pagar la cuenta final antes de consumir en
+            nuestro local
+          </p>
+          <p>
+            Dale click al botón "Sí, quiero" y disfruta de la experiencia!!!
+          </p>
+          <button id="btn_yes"><h4>Sí, quiero</h4></button>
+        </div>
+      </section>
+      <section id="form_s" class="main__validation">
+        <figure class="main__validation__img">
+          <img
+            id="img__2"
+            src="./img/aprioriValidation.png"
+            alt="texto descriptivo"
+          />
+          <h2>Ingresa los datos de tu tarjeta</h2>
+        </figure>
+
+        <form id="form_f" class="main__validation__form" action="">
+          <label for="numberCard" class="main__validation__form__number">
+            <span> Número de tarjeta </span>
+            <input
+              type="text"
+              id="numberCard"
+              placeholder="1234 5678 1234 5678"
+              name="numberCard"
+              required
+            />
+          </label>
+          <label for="name" class="main__validation__form__name">
+            <span> Nombres completos </span>
+            <input
+              type="text"
+              id="name"
+              placeholder="Leo Ruiz"
+              name="name"
+              required
+            />
+          </label>
+          <label for="expiration" class="main__validation__form__exp">
+            <span> Expira </span>
+            <input
+              type="month"
+              id="expiration"
+              placeholder="17/02/2024"
+              name="expiration"
+              required
+            />
+          </label>
+          <label for="ccv" class="main__validation__form__ccv">
+            <span> CCV </span>
+            <input type="text" id="ccv" placeholder="177" name="ccv" required />
+          </label>
+          <input id="input_validation" type="submit" value="Validar" />
+        </form>
+      </section>
+      <section id="correct" class="main__correct">
+        <figure class="main__correct__img">
+          <img
+            id="img2"
+            src="./img/aprioriValidation.png"
+            alt="texto descriptivo"
+          />
+        </figure>
+        <div class="main__correct__text">
+          <h2>Validación correcta</h2>
+          <p>
+            El total de la cuenta de la mesa Nro.12 será cargado a la cuenta de
+            Leo Ruiz*
+          </p>
+          <p>
+            *Solo se cargarán a tu tarjeta aquellos gastos que se realicen en tu
+            mesa reservada
+          </p>
+          <button id="btn_correct"><h4>Aceptar</h4></button>
+        </div>
+      </section>
+      <section id="incorrect" class="main__incorrect">
+        <div class="main__incorrect__text">
+          <h2>Validación Incorrecta</h2>
+          <p>Por favor, revisa bien los datos ingresados</p>
+          <button id="btn_incorrect"><h4>Aceptar</h4></button>
+        </div>
+      </section>
     </main>
-   
+
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
