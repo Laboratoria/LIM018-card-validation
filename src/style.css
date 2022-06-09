@@ -25,7 +25,7 @@ button {
 .main__reservation .main__reservation__img {
   flex-grow: 50;
   margin-left: 250px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .main__reservation .main__reservation__data {
   flex-grow: 50;
@@ -41,9 +41,10 @@ button {
   /*margin-top: 100px;
         margin-left: 100px;*/
   width: 500px;
-  height: 280;
+  height: 280px;
   border-radius: 25px;
 }
+
 
 p {
   text-align: center;
@@ -100,7 +101,36 @@ h3 {
   margin-bottom: 30px;
 }
 
-.main__validation__form {
-  display: inline-flex;
-  flex-wrap: wrap;
+.main__validation__form{
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 500px;
+}
+
+
+.main__validation__form .main__validation__form__number{
+  display: block;
+  margin-top: 30px;
+}
+
+.main__validation__form .main__validation__form__name{
+  display: block;
+  margin-top: 30px;
+}
+
+.main__validation__form .main__validation__form__exp{
+  display: block;
+  margin-top: 30px;
+}
+
+.main__validation__form .main__validation__form__ccv{
+  display: block;
+  margin-top: 30px;
+ 
+}
+
+.main__validation__form .main__validation__form__submit{
+  display: block;
+  margin-top: 30px;
+
 }
