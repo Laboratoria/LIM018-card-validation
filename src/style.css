@@ -1,4 +1,4 @@
-html{
+html{            /*tamañno de caja*/
     box-sizing: border-box;
     font-size: 16px;
 }
@@ -7,7 +7,7 @@ html{
     box-sizing: inherit;
     margin:0 ;
     padding:0 ;
-}
+} 
 
 body{
     font-family: sans-serif;
@@ -126,7 +126,7 @@ max-width: 100%;
 .main_card{
     margin-top: 2rem;
     flex-basis: 28%;
-}
+} 
 
 .main_card img{
     width: 100%;
@@ -214,7 +214,7 @@ max-width: 100%;
 
 .contenedor_form label{
     font-size: 1.5rem;
-}
+} 
 
 .contenedor_form input{
     background-color: #A0B3D1;
@@ -223,7 +223,7 @@ max-width: 100%;
     border-radius: 1rem;
     padding: .5rem;
     padding-left: 1rem;
-}
+} 
 
 .datos{
     display: flex;

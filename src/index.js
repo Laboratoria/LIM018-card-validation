@@ -39,6 +39,10 @@ pago.addEventListener('click', () => {
    if(validar) {
      const tarjetamaskify = validator.maskify(numero.value);
      alert(`Pago procesado! \n${tarjetamaskify}`)
+     //programar aqui modificacion input//
+     document.getElementById("numero").value = tarjetamaskify; 
+     console.log (document.getElementById("numero").value)
+
    }
    else{
      alert('Tarjeta no valida!')

@@ -1,13 +1,12 @@
 const validator = {
 
   isValid:function(creditCardNumber){
-    // obtener la inversa del numero indicado
     const numReverse= creditCardNumber.split("").reverse();
     let newnumReverse=[];
 
-for (let i=0; i<numReverse.length; i++){
-  //validamos que el numero sea par 
-  if(i%2!=0){
+   for (let i=0; i<numReverse.length; i++){
+ 
+   if(i%2!=0){
     let multiplication=numReverse[i]*2;
     if (multiplication>9){
       //va pasar como caracter de texto 
@@ -20,19 +19,19 @@ for (let i=0; i<numReverse.length; i++){
     else{
       newnumReverse.push(multiplication);
     }
-  }else{
+   }else{
     newnumReverse.push(numReverse[i]);
   }
-}
-let addition=0;
-for (let i=0; i<newnumReverse.length; i++){
+   } 
+  let addition=0;
+  for (let i=0; i<newnumReverse.length; i++){
   addition=addition+parseInt(newnumReverse[i]);
-}
-if (addition%10==0){
+ }
+ if (addition%10==0){
   return true;
-}else{
+ }else{
   return false;
-}
+ }
   }, 
 
 maskify:function(creditCardNumber){
