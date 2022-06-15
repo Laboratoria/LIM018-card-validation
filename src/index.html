@@ -52,14 +52,15 @@
         <form id="form_f" class="main__validation__form" action="">
           <label for="numberCard" class="main__validation__form__number">
             <span> Número de tarjeta </span>
-            <input
-              type="text"
-              id="numberCard"
-              placeholder="1234 5678 1234 5678"
-              name="numberCard"
-              required
-            />
           </label>
+          <input
+          type="text"
+          id="numberCard"
+          placeholder="1234 5678 1234 5678"
+          name="numberCard"
+          required
+          />
+          <p id="message"></p>
           <label for="name" class="main__validation__form__name">
             <span> Nombres completos </span>
             <input
@@ -111,14 +112,14 @@
             *Solo se cargarán a tu tarjeta aquellos gastos que se realicen en tu
             mesa reservada
           </p>
-          <button id="btn_correct"><h4>Aceptar</h4></button>
+          <button id="btn_correct">Aceptar</button>
         </div>
       </section>
       <section id="incorrect" class="main__incorrect">
         <div class="main__incorrect__text">
           <h2>Validación Incorrecta</h2>
           <p>Por favor, revisa bien los datos ingresados</p>
-          <button id="btn_incorrect"><h4>Aceptar</h4></button>
+          <button id="btn_incorrect">Aceptar</button>
         </div>
       </section>
     </main>
