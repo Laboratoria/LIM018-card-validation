@@ -1,12 +1,12 @@
-html{            /*tamañno de caja*/
-    box-sizing: border-box;
+html{           /*- tamañno de caja*/
+    /* box-sizing: border-box; */
     font-size: 16px;
 }
 
-*, *:before, *:after {
+*, *:before, *:after {  /*estetica*/
     box-sizing: inherit;
     margin:0 ;
-    padding:0 ;
+    padding:0 ; /*relleno*/
 } 
 
 body{
@@ -14,9 +14,9 @@ body{
 }
 
 img{
-max-width: 100%;
+max-width: 100%; 
 
-}
+ }
 
 .contenedor {
     max-width: 1200px;
