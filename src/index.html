@@ -7,10 +7,15 @@
   </head>
   <body>
     <main class="main">
-      <h1 id="title" class="main__reservation__title">
-        Detalles de tu reserva en APRIORI
-      </h1>
+    
       <section id="reservation" class="main__reservation">
+        <div id="title" class="main__reservation__title">
+          <h1 >
+            Detalles de tu reserva en APRIORI
+          </h1>
+
+        </div>
+        
         <figure class="main__reservation__img">
           <img
             id="img__1"
@@ -36,7 +41,7 @@
           <p>
             Dale click al botón "Sí, quiero" y disfruta de la experiencia!!!
           </p>
-          <button id="btn_yes"><h4>Sí, quiero</h4></button>
+          <button id="btn_yes">Sí, quiero</button>
         </div>
       </section>
       <section id="form_s" class="main__validation">
@@ -63,28 +68,28 @@
           <p id="message"></p>
           <label for="name" class="main__validation__form__name">
             <span> Nombres completos </span>
-            <input
+          </label>
+          <input
               type="text"
               id="name"
               placeholder="Leo Ruiz"
               name="name"
               required
             />
-          </label>
           <label for="expiration" class="main__validation__form__exp">
             <span> Expira </span>
-            <input
+          </label>
+          <input
               type="month"
               id="expiration"
               placeholder="17/02/2024"
               name="expiration"
               required
             />
-          </label>
           <label for="ccv" class="main__validation__form__ccv">
             <span> CCV </span>
-            <input type="text" id="ccv" placeholder="177" name="ccv" required />
           </label>
+          <input type="text" id="ccv" placeholder="177" name="ccv" required />
           <input id="input_validation" type="submit" value="Validar" class="mian__validation__form__submit"/>
        
         </form>
@@ -115,12 +120,40 @@
           <button id="btn_correct">Aceptar</button>
         </div>
       </section>
-      <section id="incorrect" class="main__incorrect">
-        <div class="main__incorrect__text">
-          <h2>Validación Incorrecta</h2>
-          <p>Por favor, revisa bien los datos ingresados</p>
-          <button id="btn_incorrect">Aceptar</button>
+      <section id="pay" class="main__pay">
+        <div class="main__pay__text">
+          <h2>Tu tarjeta fue añadida como <br> medio de pago futuro</h2>
+          <div>
+            <p>Al finalizar tu consumo total en la mesa Nro. 12, <br> el total de la cuenta será cargado a tu cuenta*</p>
+            <p>*Sólo se cargarán a tu tarjeta aquellos gastos que se realicen en tu mesa reservada</p>
+            <button id="btn_pay">Finalizar</button>
+          </div>
         </div>
+      </section>
+
+      <section id="end" class="main__end">
+        <div class="main__title__end">
+          <h1>Detalles de tu reserva en APRIORI</h1>
+          <h2>¡Te esperamos!</h2>
+        
+        </div>
+        <figure class="main__reservation__img">
+          <img
+            id="img__1"
+            src="./img/aprioriReservation.jpeg"
+            alt="texto descriptivo"
+          />
+        </figure>
+
+        <div class="main__end__data">
+          <h3>Reserva hecha</h3>
+          <h3>Mesa Nro. 12</h3>
+          <h3>Martes 24 a las 20:30 hrs.</h3>
+
+          <h3>A nombre de Leo Ruiz</h3>
+          <h3>Av. Los Caminos 123</h3>
+        </div>
+      
       </section>
     </main>
 

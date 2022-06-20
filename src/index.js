@@ -1,26 +1,18 @@
 import validator from "./validator.js";
-let title = document.getElementById("title");
-let reservation = document.getElementById("reservation");
-let correct = document.getElementById("correct");
-let incorrect = document.getElementById("incorrect");
-let btn_yes = document.getElementById("btn_yes");
-//let btn_correct = document.getElementById("btn_correct");
-//let btn_incorrect =document.getElementById("btn_incorrect");
-//let form_f = document.getElementById("form_f");
-let form_s = document.getElementById("form_s");
-let numberCard = document.getElementById("numberCard");
-let btn_validator = document.getElementById("input_validation")
+const title = document.getElementById("title");
+const reservation = document.getElementById("reservation");
+const correct = document.getElementById("correct");
+const btn_yes = document.getElementById("btn_yes");
+const form_s = document.getElementById("form_s");
+const numberCard = document.getElementById("numberCard");
+const btn_validator = document.getElementById("input_validation")
 const message = document.getElementById("message");
-//variable boton validar
-// eslint-disable-next-line no-console
-//console.log(btn_validator);
-//let input_validation = document.getElementById("input_validation");
-//let btn_correct = document.getElementById("btn_correct");
-//let btn_incorrect = document.getElementById("btn_incorrect");
 
+// ocultar las secciones que no necesito mostrar al inicio
  form_s.style.display= "none";
  correct.style.display= "none";
- incorrect.style.display = "none";
+
+ //evento que me permite pasar a la siguiente vista
 btn_yes.addEventListener("click", () => {
   
  title.style.display = "none";
