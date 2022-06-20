@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="main">
-    
+    <main class="main">    
       <section id="reservation" class="main__reservation">
         <div id="title" class="main__reservation__title">
           <h1 >
@@ -71,7 +70,7 @@
           </label>
           <input
               type="text"
-              id="name"
+              id="names"
               placeholder="Leo Ruiz"
               name="name"
               required
@@ -91,42 +90,17 @@
           </label>
           <input type="text" id="ccv" placeholder="177" name="ccv" required />
           <input id="input_validation" type="submit" value="Validar" class="mian__validation__form__submit"/>
-       
+          <button id="btn_pay">Pagar</button>
         </form>
-       <!--  <div id="bonito">
-
-        </div> -->
-      </section>
-      <section id="correct" class="main__correct">
-        <figure class="main__correct__img">
-          <img
-            id="img__3"
-            src="./img/aprioriValidation.png"
-            alt="texto descriptivo"
-          />
-        </figure>
-        <div class="main__correct__text">
-          
-          <h2>Validación correcta</h2>
-          <div id="card"></div>
-          <p>
-            El total de la cuenta de la mesa Nro.12 será cargado a la cuenta de
-            Leo Ruiz*
-          </p>
-          <p>
-            *Solo se cargarán a tu tarjeta aquellos gastos que se realicen en tu
-            mesa reservada
-          </p>
-          <button id="btn_correct">Aceptar</button>
-        </div>
-      </section>
+       </section>
+     
       <section id="pay" class="main__pay">
         <div class="main__pay__text">
           <h2>Tu tarjeta fue añadida como <br> medio de pago futuro</h2>
           <div>
             <p>Al finalizar tu consumo total en la mesa Nro. 12, <br> el total de la cuenta será cargado a tu cuenta*</p>
             <p>*Sólo se cargarán a tu tarjeta aquellos gastos que se realicen en tu mesa reservada</p>
-            <button id="btn_pay">Finalizar</button>
+            <button id="btn_end">Finalizar</button>
           </div>
         </div>
       </section>

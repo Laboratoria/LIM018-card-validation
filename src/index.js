@@ -1,41 +1,45 @@
 import validator from "./validator.js";
+//secciones 
 const title = document.getElementById("title");
 const reservation = document.getElementById("reservation");
-const correct = document.getElementById("correct");
-const btn_yes = document.getElementById("btn_yes");
 const form_s = document.getElementById("form_s");
+//botones para los eventos
+const pay = document.getElementById("pay");
+const end =document.getElementById("end");
+const btn_yes = document.getElementById("btn_yes");
+const btn_pay = document.getElementById("btn_pay");
+const btn_end = document.getElementById("btn_end");
+//inputs
 const numberCard = document.getElementById("numberCard");
+const names = document.getElementById("names");
+const expiration = document.getElementById("expiration");
+const ccv = document.getElementById("ccv");
 const btn_validator = document.getElementById("input_validation")
 const message = document.getElementById("message");
 
 // ocultar las secciones que no necesito mostrar al inicio
  form_s.style.display= "none";
- correct.style.display= "none";
+ pay.style.display= "none";
+ end.style.display= "none";
+
 
  //evento que me permite pasar a la siguiente vista
 btn_yes.addEventListener("click", () => {
-  
- title.style.display = "none";
- reservation.style.display = "none";
+  title.style.display = "none";
+  reservation.style.display = "none";
   form_s.style.display="inline-flex";
- //correct.style.display = "none";
-  //incorrect.style.display = "none";
-
- //reservation.textContent = form_s;
-
-  // eslint-disable-next-line no-console
-  //console.log(form_s);
-}
+ }
 
 );
 
-
+//evento que me permite pasar a validar mis inputs
 btn_validator.addEventListener("click", (event) => {
   event.preventDefault()
   let inputNumberCard = numberCard.value;
+  let inputName = 
   let muskify= validator.maskify(inputNumberCard);
-  //let n = document.getElementById("card");
-  if (inputNumberCard === ""){
+  
+  if (inputNumberCard === "" && ){
       message.innerText = "Ingrese un número de tarjeta";
   }
   else {
