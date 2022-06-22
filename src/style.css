@@ -16,6 +16,7 @@ button {
   width: 100px;
   height: 30px;
   border-radius: 15px;
+  text-align: center;
 }
 .main__reservation {
   display: flex;
@@ -67,6 +68,7 @@ h2 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 30px;
+  font-weight: bold;
 }
 h3 {
   text-align: center;
@@ -95,52 +97,116 @@ h3 {
   height: 30px;
   border-radius: 15px;
  }
- 
+
 .main__validation {
-  display: inline-flex;
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
 
 .main__validation__img {
-  flex-grow: 50;
+  flex-direction: column;
   margin-left: 130px;
   margin-top: 40px;
 }
 
 
-
-
 .main__validation__form{
-  text-align: center;
- 
-  margin-left: 500px;
+  display:flex;
+  flex-direction: column;
+  
+  
+}
+
+#numberCard{
+  width: 250px;
+  height: 30px;
+  margin-left: 570px;
+  background-color: rgba(239, 223, 139, 0.35);
+  border-radius: 10px;
+}
+
+#names{
+  width: 250px;
+  height: 30px;
+  margin-left: 570px;
+  background-color: rgba(239, 223, 139, 0.35);
+  border-radius: 10px;
+}
+#expiration{
+  width: 120px;
+  height: 30px;
+  margin-left: 570px;
+  background-color: rgba(239, 223, 139, 0.35);
+  border-radius: 10px;
+
+}
+#ccv{
+  width: 80px;
+  height: 30px;
+  margin-left: 570px;
+  background-color: rgba(239, 223, 139, 0.35);
+  border-radius: 10px;
 }
 
 
 .main__validation__form__number{
-  display: block;
+  text-align: left;
+  margin-left: 500px;
   margin-top: 20px;
+  font-size: 13px;
 }
 
 .main__validation__form__name{
-  display: block;
+  text-align: left;
+  margin-left: 500px;
   margin-top: 20px;
+  font-size: 13px;
+  margin-top: 20px;
+
 }
 
 .main__validation__form__exp{
-  display: block;
+  text-align: left;
+  margin-left: 500px;
+  margin-top: 20px;
+  font-size: 13px;
   margin-top: 20px;
 }
 
 .main__validation__form__ccv{
-  display: block;
+  text-align: left;
+  margin-left: 500px;
+  margin-top: 20px;
+  font-size: 13px;
   margin-top: 20px;
  
 }
+span {
+  margin-left: 80px;
+}
 
-.main__validation__form__submit{
-  display: block;
-  margin-top: 20px;
+.main__pay{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.main__pay__title {
+  align-items: center;
+  margin-left: 350px;
+}
+
+.main__pay__text {
+  justify-content: center;
+  margin-left: 350px;
+  background-color: rgba(239, 223, 139, 0.35);
+  padding: 30px;
 
 }
 
+#btn_end{
+  text-align: center;
+  margin-left: 670px;
+}

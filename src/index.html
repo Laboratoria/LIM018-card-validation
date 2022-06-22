@@ -50,69 +50,72 @@
           />
           <h2>Ingresa los datos de tu tarjeta</h2>
         </figure>
-
-        <form id="form_f" class="main__validation__form" action="">
-          <label for="numberCard" class="main__validation__form__number">
-            <span> Número de tarjeta </span>
-          </label>
-          <input
-            type="text"
-            id="numberCard"
-            placeholder="1234 5678 1234 5678"
-            name="numberCard"
-            aria-required="true"
-          />
-          <p id="message"></p>
-          <label for="name" class="main__validation__form__name">
-            <span> Nombres completos </span>
-          </label>
-          <input
-            type="text"
-            id="names"
-            placeholder="Leo Ruiz"
-            name="name"
-            aria-required="true"
-          />
-
-          <label for="expiration" class="main__validation__form__exp">
-            <span> Expira </span>
-          </label>
-          <input
-            type="month"
-            id="expiration"
-            placeholder="17/02/2024"
-            name="expiration"
-            aria-required="true"
-          />
-
-          <label for="ccv" class="main__validation__form__ccv">
-            <span> CCV </span>
-          </label>
-          <input
-            type="text"
-            id="ccv"
-            placeholder="177"
-            name="ccv"
-            aria-required="true"
-          />
-
-          <input
-            id="input_validation"
-            type="submit"
-            value="Validar"
-            class="main__validation__form__submit"
-          />
-          <button id="btn_pay">Pagar</button>
-        </form>
+        
+          <form id="form_f" class="main__validation__form" action="" >
+            <label for="numberCard" class="main__validation__form__number">
+              <span> Número de tarjeta </span>
+            </label>
+            <input
+              type="text"
+              id="numberCard"
+              placeholder="1234 5678 1234 5678"
+              name="numberCard"
+              aria-required="true"
+            />
+            <p id="message"></p>
+            <label for="name" class="main__validation__form__name">
+              <span> Nombres completos </span>
+            </label>
+            <input
+              type="text"
+              id="names"
+              placeholder="Leo Ruiz"
+              name="name"
+              aria-required="true"
+            />
+  
+            <label for="expiration" class="main__validation__form__exp">
+              <span> Expira </span>
+            </label>
+            <input
+              type="month"
+              id="expiration"
+              placeholder="17/02/2024"
+              name="expiration"
+              aria-required="true"
+            />
+  
+            <label for="ccv" class="main__validation__form__ccv">
+              <span> CCV </span>
+            </label>
+            <input
+              type="text"
+              id="ccv"
+              placeholder="177"
+              name="ccv"
+              aria-required="true"
+            />
+  
+            <input
+              id="input_validation"
+              type="submit"
+              value="Validar"
+              class="main__validation__form__submit"
+            />
+            <button id="btn_pay">Pagar</button>
+          </form>
+      
+       
       </section>
 
       <section id="pay_s" class="main__pay">
-        <div class="main__pay__text">
+        <div class="main__pay__title">
           <h2>
             Tu tarjeta fue añadida como <br />
             medio de pago futuro
           </h2>
-          <div>
+         </div> 
+          <div class="main__pay__text">
             <p>
               Al finalizar tu consumo total en la mesa Nro. 12, <br />
               el total de la cuenta será cargado a tu cuenta*
@@ -121,9 +124,11 @@
               *Sólo se cargarán a tu tarjeta aquellos gastos que se realicen en
               tu mesa reservada
             </p>
-            <button id="btn_end">Finalizar</button>
+            
           </div>
-        </div>
+
+          <button id="btn_end">Finalizar</button>
+        
       </section>
 
       <section id="end_s" class="main__reservation">
