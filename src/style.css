@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.titulo {
+    margin-left: 5px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(245, 243, 247);
+    font-size: 80px;
+    background: rgba(45, 44, 116, 0.514);
+    text-shadow: 0 0 20px #fff;
+
+}
+.postTitulo {
+    
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 40px;
+    color: rgb(245, 243, 247);
+    background: rgba(45, 44, 116, 0.514);      
+    padding: 0px 0px 30px 0px ;
+    text-transform: uppercase;
+}
+body {
+   
+    font-family:'Oswald', sans-serif;
+    background: #060307;
+    background-size:cover;
+
+    
+}
+.pantalla-inicio{
+    width: 100%;
+    height: 750px;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    background-image: url(/images/bn-digital-shield-lock.jpg);
+    background-size: cover;
+    border: none;
+    border-radius: 3px;
+    opacity: 70%;
+
+}
+.inicioTitulo{
+    padding-top: 180px;
+    padding-left: 40px;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+.inicioTexto{
+    padding-left: 40px;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+.bttn-inicio{
+    margin-left: 40px;
+    margin-top: 15px;
+    padding: 7px 8px 5px 8px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    background: #6870e0;
+    
+}
+
+.contenedor {
+    width: 100%;;
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: auto ; 
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    border-radius: 15px;
+    justify-content: space-between;
+    
+}
+
+.tarjetahtml {
+    padding: 50px 40px;
+    height: 80%;
+    width: 50%;
+    border-radius: 15px;
+    min-height: 315px;
+    display: flex;
+    flex-direction:row;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    justify-content: space-between;         
+    background-color: black;
+    background-image: linear-gradient(0, #403f5b 0, #060608 50%, #000000 100%);
+    box-shadow: 0 0 28px rgb(216, 209, 221);
+    filter: brightness(1.75);
+
+}
+.chip {
+    height: 100%;
+    width: 100%;
+    max-width: 50px;
+    border-radius: 5px;
+    margin: 0px 5px 7px;
+}
+.tarjetahtml .grupo .label {
+    color: rgb(80, 80, 77);
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-weight:bolder;
+
+} 
+.tarjetahtml .grupo .numero,
+.tarjetahtml .grupo .nombreTarjeta,
+.tarjetahtml .grupo .expiracion{
+    
+    color: rgb(156, 163, 180);
+    font-size: 30px;
+    font-family: 'Audiowide', cursive;
+    margin: 0px 5px;
+    text-transform: uppercase;   
+}
+
+.formulario-tarjeta{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    padding: 30px 40px 20px 40px;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(68, 186, 255);
+
+}
+.formulario-tarjeta label{
+    display: block;
+    color: rgb(248, 241, 241);
+    margin-bottom: 5px;
+    font-size: 19px;
+    
+}
+.formulario-tarjeta input,
+.formulario-tarjeta select{
+    border: 3px solid rgba(142, 142, 156, 0.952);
+    font-size: 20px;
+    height: 50px;
+    width: 5px 12px;
+    transition: .3s ease all;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.formulario-tarjeta input{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.formulario-tarjeta .flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+.formulario-tarjeta .grupo-select {
+    
+    width: 80px;
+    margin-right: 4px;
+}
+.formulario-tarjeta input .grupocvv{
+    max-width: 20px;
+    margin-left: 20px;
+}
+.formulario-tarjeta .botonIngresar{
+    margin-top: 10px;
+    padding: 0px 2px 2px 2px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    height: 70px;
+    width: 5px 8px;
+    font-family: 'Oswald', sans-serif;
+    color:rgb(253, 251, 251);
+    background: #222150c5;
+    box-shadow: 0 0 20px rgb(241, 239, 239);
+    
+}
+.textFinal {
+    border:5px 0 10px white;
+    border-radius: 10px;
+    width: 50%;
+    color: azure;
+    font-size: 42px;
+    box-shadow: 0 0 20px rgb(207, 198, 198);
+    margin: auto ; 
+    padding: 5px 0px 10px 8px;
+    background-color: #242430;
+    margin-top: 10px;
+    
+    
+
+}
