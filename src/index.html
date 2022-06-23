@@ -4,11 +4,125 @@
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Lato:wght@300;400&family=Oswald&family=Roboto+Condensed&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+  <h1 class="titulo">SEGURO DE TARJETAS 100% ONLINE </h1>
+  <h2 class="postTitulo"> Protege todas tus tarjetas ante uso indebido y mucho más. Además, ¡no necesitas ir al banco!</h2>
+  
+  <div id="pantalla-inicio" class="pantalla-inicio" style="display: block">
+    <h1 class="inicioTitulo">SEGURO TARJETA PROTEGIDA</h1>
+    <h2 class="inicioTexto">Solicita tu seguro de tarjetas y ten la tranquilidad que buscas</h2>
+    <input type="button" class="bttn-inicio" value="PIDELO AQUI" id="bttn-inicio">
+  </div>
+  <div id="pantalla" class="pantalla" style="display: none">
+    <div class="contenedor">
+
+      <section>
+      <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+        <div class="grupo"> 
+          <label for="Creditcard">N° de tarjeta</label>
+          <input type="text" id="Creditcard" name="Creditcard">
+        </div>
+  
+        <div class="grupo">
+          <label for="inputnombre">Nombre</label>
+          <input type="text" id="inputnombre" name="inputnombre" >
+        </div>
+  
+        <div class="flexbox">
+          <div class="grupoexpira">
+            <label for="selectMes">Expiracion </label>
+            <div class="flexbox">
+              <div class="grupo-select">
+                <select name="mes" id="selectMes">
+                  <option selected disabled>Mes</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+  
+                </select>
+              </div>
+              <div class="grupo-select">
+                <select name="year" id="selectyear">
+                  <option selected disabled>Año</option>
+                  <option value="22">2022</option>
+                  <option value="23">2023</option>
+                  <option value="24">2024</option>
+                  <option value="25">2025</option>
+                  <option value="26">2026</option>
+                </select>
+              </div>
+            </div>
+  
+          </div>
+          <div class="grupocvv">
+            <label for="inputcvv">CVV</label>
+            <input type="text" id="inputcvv" maxlength="3">
+          </div>
+  
+        </div>
+  
+        <input type="submit" class="botonIngresar" value="PROTEGER AHORA" id ="botonIngresar">
+  
+      </form>
+      
+    </section>
+    <br>
+    <br>
+    
+    <div class="tarjetahtml">
+      <section class="tarjeta" id="tarjeta"> 
+        <div>
+          <img src="images/chip.png" class="chip" alt="">
+  
+        </div>
+        <div class="datos">
+          <div class="grupo" id="numero">
+            <p class="label"> NUMERO DE TARJETA</p>
+            <p class="numero" id="numeroTarjeta">#### #### #### ####</p>
+          </div>
+          <div class="flexbox">
+            <div class="grupo" id="nombre">
+              <p class="label">NOMBRE DE TARJETA</p>
+              <p class="nombreTarjeta" id="nombreTarjeta">COSME FULANITO</p>
+            </div>
+  
+            <div class="grupo" id="expiracion">
+              <p class="label">Expiracion</p>
+              <p class="expiracion"><span class="mes">MM</span> / <span class="year">AA</span></p>
+            </div>
+  
+          </div>
+  
+        </div>
+    
+  
+      </section>
+  
+  
+    </div>
+  
+    </div>
+  
+    <div class="mensajeFinal">
+      <p class="textFinal" id="mensajeFinal">  </p>
+    </div>
+
+  </div>
+ 
+  
+    
+    <footer>by Leyla</footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
