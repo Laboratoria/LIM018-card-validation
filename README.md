@@ -218,7 +218,13 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
 
 ### Definición del producto
+Los principales usuarios de este producto son estudiantes de tecnología y developers interesados en participar de los talleres online de REACT.
 
+Los usuarios tienen como objetivo comprar su entrada y pagar con su tarjeta de crédito.
+
+Creo que el producto le permite al usuario comprar de forma rápida y segura su entrada.
+ 
+*******************************************************************************
 En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
 para definir el producto final a nivel de experiencia y de interfaz.
 
@@ -255,6 +261,53 @@ Estos puntos los presentarás en el `README.md`.
 
 ##### `README.md`
 
+Título del proyecto: Talleres online de REACT
+
+Es la página web del evento online de REACT en LATAM a realizarse en junio de 2022.
+
+Los usuarios acceden a la página principal. Encuentran una breve descripción del evento y un botón para adquirir los tickets. Este botón los lleva a 
+
+la página de compra, donde pueden llenar un formulario de pago y comprar. 
+
+Investigación UX:
+
+1. Para determinar quiénes son los usuarios elaboré la siguiente historia de usuario:
+
+“Como estudiante/developer 
+ Quiero comprar con mi tarjeta de crédito una entrada a través de la página web del evento 
+ Para participar de los talleres online de REACT.”
+
+2. El producto ayuda a los usuarios a comprar de forma rápida y segura su entrada con una tarjeta de crédito.
+
+3. A continuación detallo la evolución del prototipo:
+
+ En papel y lápiz:
+ 
+ Prototipo inicial:
+ 
+ ![Evento online REACT](Prototipo_lapiz.jpg)
+ 
+
+ En Figma:
+ 
+ Prototipo inicial:
+ 
+ ![Evento online REACT](Prototipo_inicial.png)
+ 
+ ![Evento online REACT](Prototipo_inicial_.png)
+
+ 
+ 4. El feedback recibido fue el de utilizar una paleta de colores.
+ 
+ 
+ 5. La imagen final del prototipo es la siguiente:
+ 
+ ![Evento online REACT](Prototipo_final_1.png)
+ 
+ ![Evento online REACT](Prototipo_final_2.png)
+
+
+**********************************************************************************************************************************************
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.

@@ -1,0 +1,187 @@
+/*GLOBALES*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;  
+    background-color:  #141225; /* de gainsboro lo paso a negro*/
+}
+
+a {
+     text-decoration: none;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+    align-items: center;  
+    color: #e1038a; /*cambio color a fucsia*/
+    
+}
+
+h2, li {
+    font-size: 15px; 
+    color: gainsboro;
+}
+
+li {
+    font-weight: bold;
+}
+
+h1, h2 {
+    padding: 10px;
+}
+
+h2, h3, p, a {
+    color: gainsboro;  /*cambio color a blanco*/
+}
+
+h3 {
+    font-size: 48px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+p, label {
+    font-size: 16px;
+}
+
+.wrapper {
+    max-width: 1480px;
+    width: 100%;
+    margin: auto;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.event {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;  
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+button {
+    width: 20%;
+    height: 50px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    margin-top: 12px;
+    padding: 10px;
+    border: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 22px;
+    background: linear-gradient(to right, #00DD3B, #99FF00);
+    /*border: 2px solid #e1038a;*/
+}
+
+button:hover {
+    background: #99FF00;
+    border: 3px solid #00DD3B;
+    background-color:  #141225;
+    color: #00DD3B;
+}
+
+footer {
+    background-color: gray;
+}
+
+.footer-nav, .footer-end {
+    text-align: center;
+    margin-top: 5px;  
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;    
+}
+
+.footer-end p {
+    font-size: 12px;
+    line-height: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+/* PANTALLA 2 */
+
+#paso2 {
+    display: none;   
+}
+
+.form-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 25px;
+    background-color: #f7f8fb;
+    
+}
+
+.credit-card img {
+    margin-top: 40px;
+    margin-left: 26%;
+    margin-bottom: 15px;
+}
+
+.date {
+    display: flex;
+    margin-left: 25%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.expiration {
+    display: flex;
+}
+
+.group {
+    margin-left: 25%;
+    padding: 5px;  
+}
+
+#inputNumber, #inputName {
+    display: block;
+    width: 60%; 
+}
+
+#cvvNumber {
+    margin-left: 15px;
+    width: 40%;
+}
+
+#inputNumber, #inputName, #cvvNumber, select {
+    border-radius: 4px;
+    border: none;
+    height: 25px;
+    margin-bottom: 25px;
+    height: 35px;   
+}
+
+.year, .cvv {
+    margin-left: 25px;
+}
+
+#validacion {
+    margin-left: 38%;   
+}
+
+.btn-pagar {
+    width: 30%;
+    margin-left: 33%;
+    margin-bottom: 18px;   
+}
+
+.btn-pagar:hover {
+    border: 3px solid #00DD3B;
+    background-color:  #f7f8fb;
+    color: #00DD3B;
+}
