@@ -2,30 +2,37 @@
 
 Es la página web del evento online de REACT en LATAM a realizarse en junio de 2022.
 
-Los usuarios acceden a la página principal. Encuentran una breve descripción del evento y un botón para adquirir los tickets. Este botón los lleva a 
+Los usuarios acceden a la página principal. Encuentran una breve descripción del evento y un botón para adquirir los tickets. Este botón los lleva a la página de compra, donde pueden llenar un formulario de pago y comprar. 
 
-la página de compra, donde pueden llenar un formulario de pago y comprar. 
+### Imágenes finales del proyecto: 
+
+ 
+ ![Evento online REACT](Prototipo_final_1.png)
+ 
+ 
+ ![Evento online REACT](Prototipo_final_2.png)
+
 
 ## Investigación UX:
 
-1. Para determinar quiénes son los usuarios elaboré la siguiente historia de usuario:
+¿Quienes son los principales usuarios de mi producto?
+Para determinar quiénes son los usuarios elaboré la siguiente historia de usuario:
 
-“COMO estudiante/developer 
+“COMO estudiante/Developer 
  QUIERO comprar con mi tarjeta de crédito una entrada a través de la página web del evento 
  PARA participar de los talleres online de REACT.”
 
-2. El producto ayuda a los usuarios a comprar de forma rápida y segura su entrada con una tarjeta de crédito.
+¿Cómo el producto soluciona los problemas/necesidades de los participantes?
+La página web ayuda a los usuarios a comprar de forma rápida y segura su entrada con una tarjeta de crédito ocultando parcialmente el número de tarjeta.
 
-3. A continuación detallo la evolución del prototipo:
+#### A continuación detallo la evolución del prototipo:
 
- En papel y lápiz:
- 
- Prototipo inicial:
- 
+Prototipo de baja fidelidad 
+  
  ![Evento online REACT](Prototipo_lapiz.jpg)
  
 
- En Figma:
+Prototipo de alta fidelidad 
  
  Prototipo inicial:
  
@@ -34,14 +41,11 @@ la página de compra, donde pueden llenar un formulario de pago y comprar.
  ![Evento online REACT](Prototipo_inicial_.png)
 
  
- 4. El feedback recibido fue el de utilizar una paleta de colores.
+ #### El feedback recibido
+ Utilizar una paleta de colores.
  
  
- 5. La imagen final del prototipo es la siguiente:
- 
- ![Evento online REACT](Prototipo_final_1.png)
- 
- ![Evento online REACT](Prototipo_final_2.png)
+****************************************************
  
 
 # Tarjeta de crédito válida
