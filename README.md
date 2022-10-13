@@ -1,3 +1,53 @@
+# React Summit - LATAM
+
+Es la página web del evento online de REACT en LATAM a realizarse en junio de 2022.
+
+Los usuarios acceden a la página principal. Encuentran una breve descripción del evento y un botón para adquirir los tickets. Este botón los lleva a la página de compra, donde pueden llenar un formulario de pago y comprar. 
+
+### Imágenes finales del proyecto: 
+
+ 
+ ![Evento online REACT](Prototipo_final_1.png)
+ 
+ 
+ ![Evento online REACT](Prototipo_final_2.png)
+
+
+## Investigación UX:
+
+¿Quienes son los principales usuarios de mi producto?
+Para determinar quiénes son los usuarios elaboré la siguiente historia de usuario:
+
+“COMO estudiante/Developer 
+ QUIERO comprar con mi tarjeta de crédito una entrada a través de la página web del evento 
+ PARA participar de los talleres online de REACT.”
+
+¿Cómo el producto soluciona los problemas/necesidades de los participantes?
+La página web ayuda a los usuarios a comprar de forma rápida y segura su entrada con una tarjeta de crédito ocultando parcialmente el número de tarjeta.
+
+#### A continuación detallo la evolución del prototipo:
+
+Prototipo de baja fidelidad 
+  
+ ![Evento online REACT](Prototipo_lapiz.jpg)
+ 
+
+Prototipo de alta fidelidad 
+ 
+ Prototipo inicial:
+ 
+ ![Evento online REACT](Prototipo_inicial.png)
+ 
+ ![Evento online REACT](Prototipo_inicial_.png)
+
+ 
+ #### El feedback recibido
+ Utilizar una paleta de colores.
+ 
+ 
+****************************************************
+ 
+
 # Tarjeta de crédito válida
 
 ## Índice
@@ -218,7 +268,13 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
 
 ### Definición del producto
+Los principales usuarios de este producto son estudiantes de tecnología y developers interesados en participar de los talleres online de REACT.
 
+Los usuarios tienen como objetivo comprar su entrada y pagar con su tarjeta de crédito.
+
+Creo que el producto le permite al usuario comprar de forma rápida y segura su entrada.
+ 
+*******************************************************************************
 En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
 para definir el producto final a nivel de experiencia y de interfaz.
 
@@ -254,6 +310,7 @@ Estos puntos los presentarás en el `README.md`.
 #### General
 
 ##### `README.md`
+
 
 Debe contener lo siguiente:
 
