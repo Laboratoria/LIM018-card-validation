@@ -69,19 +69,3 @@ btn_end.addEventListener("click", (event) => {
   end_s.style.display = "inline-flex";
 });
 
-//parent.getElementByTagName();
-//parent.getElementByClassName();
-//document.querySelector();
-//document.querySelectorAll();
-//validator.isValid('4083952015263');
-//validator.isValid('79927398713');
-//validator.isValid('1234567890');
-//
-//validator.maskify('4556364607935616');
-//validator.maskify('1');
-//validator.maskify("helloworld");
-//validator.isValid()
-//validator.maskify('4083952015263');
-//validator.isValid('4083952015263');
-//console.log(validator);
-//let ccv= document.getElementById('ccv')
