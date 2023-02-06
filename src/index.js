@@ -3,16 +3,21 @@ function init(){
 
 let form_s = document.getElementById("form_s");
 form_s.style.display = "none";
-let pay_s = document.getElementById("pay_s");
-pay_s.style.display = "none";
-
 let btn_yes = document.getElementById("btn_yes");
 btn_yes.addEventListener("click", hiddenReservationForm)
 let btn_validator = document.getElementById("input_validation");
 btn_validator.addEventListener("click", validation)
-//const btn_pay = document.getElementById("btn_pay");
+let btn_pay = document.getElementById("btn_pay");
+btn_pay.addEventListener("click", endReservation)
+btn_pay.style.display = "none";
+let end_s = document.getElementById("end_s");
+end_s.style.display = "none";
+
 let btn_end = document.getElementById("btn_end");
 btn_end.addEventListener("click", backInit);
+
+
+
 
 }
 
@@ -24,43 +29,55 @@ function hiddenReservationForm(){
   form_s.style.display = "flex";
 }
 //evento que me permite pasar a validar el número de tarjeta
-function validation(event){
-  event.preventDefault()
-  const numberCard = document.getElementById("numberCard");
+function validation(){
+  event.preventDefault();
+  let btn_pay = document.getElementById("btn_pay");
+  let numberCard = document.getElementById("numberCard");
   let inputNumberCard = numberCard.value;
+ console.log('antes',inputNumberCard)
   const message = document.getElementById("message");
   let muskify = validator.maskify(inputNumberCard);
   if (inputNumberCard === "") {
-    message.innerText = "Ingrese un número de tarjeta";
-    //¿Por qué estoy usando inner.Text y no inner.HTML?
+    message.innerHTML = "Ingrese un número de tarjeta";
+    
   } else {
-    if (validator.isValid(inputNumberCard)) {
-      document.getElementById("numberCard").value = muskify;
-      message.innerHTML = "Tarjeta válida";
-   
+    if ((inputNumberCard.length>18 && inputNumberCard.length <=19)^(inputNumberCard.length>15 && inputNumberCard.length <=16)) {
+      let input_validation = numberCard.value;
+      numberCard.value = input_validation.replace(/\s/g, '') 
+	// Eliminamos espacios en blanco
+	    console.log(numberCard.value)
+      if(muskify != " "){
+        numberCard.value = muskify
+        console.log(numberCard.value)
+        message.innerHTML = "Tarjeta válida";
+        btn_pay.style.display = "flex";
+      }
+
    
     } else {
-      message.innerText = "Tarjeta inválida";
+      message.innerHTML = "Tarjeta inválida";
     }
   }
 
-  endReservation()
+  
 }
 
 
 //evento para finalizar
 function endReservation(){
-
-  const reservation_s = document.getElementById("reservation_s");
-  const form_s = document.getElementById("form_s");
-  const pay_s = document.getElementById("pay_s");
- 
-   
-  reservation_s.style.display = "none";
-  form_s.style.display = "none";
-  pay_s.style.display = "flex";
+    event.preventDefault();
+    const reservation_s = document.getElementById("reservation_s");
+    const form_s = document.getElementById("form_s");
+    const end_s = document.getElementById("end_s");
+    
+    reservation_s.style.display = "none";
+    form_s.style.display = "none";
+    end_s.style.display = "flex";
+  
  
 }
+
+
 
 function backInit(){  
     location.reload();
