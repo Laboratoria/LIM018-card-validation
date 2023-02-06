@@ -1,35 +1,34 @@
 import validator from "./validator.js";
-//secciones
-const reservation_s = document.getElementById("reservation_s");
-const form_s = document.getElementById("form_s");
-const pay_s = document.getElementById("pay_s");
-const end_s = document.getElementById("end_s");
-//botones para los eventos
+function init(){  
 
-const btn_yes = document.getElementById("btn_yes");
-const btn_validator = document.getElementById("input_validation");
-const btn_pay = document.getElementById("btn_pay");
-const btn_end = document.getElementById("btn_end");
-//inputs
-const numberCard = document.getElementById("numberCard");
-const ccv = document.getElementById("ccv");
-//mensajes para el usuario
-const message = document.getElementById("message");
-
-// ocultar las secciones que no necesito mostrar al inicio
+let form_s = document.getElementById("form_s");
 form_s.style.display = "none";
+let pay_s = document.getElementById("pay_s");
 pay_s.style.display = "none";
-end_s.style.display = "none";
+
+let btn_yes = document.getElementById("btn_yes");
+btn_yes.addEventListener("click", hiddenReservationForm)
+let btn_validator = document.getElementById("input_validation");
+btn_validator.addEventListener("click", validation)
+//const btn_pay = document.getElementById("btn_pay");
+let btn_end = document.getElementById("btn_end");
+btn_end.addEventListener("click", backInit);
+
+}
 
 //evento que me permite pasar a la siguiente vista
-btn_yes.addEventListener("click", () => {
+function hiddenReservationForm(){
+  const reservation_s = document.getElementById("reservation_s");
   reservation_s.style.display = "none";
-  form_s.style.display = "inline-flex";
-});
+  const form_s = document.getElementById("form_s");
+  form_s.style.display = "flex";
+}
 //evento que me permite pasar a validar el número de tarjeta
-btn_validator.addEventListener("click", (event) => {
-  event.preventDefault();
+function validation(event){
+  event.preventDefault()
+  const numberCard = document.getElementById("numberCard");
   let inputNumberCard = numberCard.value;
+  const message = document.getElementById("message");
   let muskify = validator.maskify(inputNumberCard);
   if (inputNumberCard === "") {
     message.innerText = "Ingrese un número de tarjeta";
@@ -37,35 +36,34 @@ btn_validator.addEventListener("click", (event) => {
   } else {
     if (validator.isValid(inputNumberCard)) {
       document.getElementById("numberCard").value = muskify;
-
       message.innerHTML = "Tarjeta válida";
+   
+   
     } else {
       message.innerText = "Tarjeta inválida";
     }
   }
-});
 
-//Evento para hacer el pago
-btn_pay.addEventListener("click", (event) => {
-  event.preventDefault();
-  let ipt_c = ccv.value;
-  if (ipt_c != "") {
-    form_s.style.display = "none";
-    reservation_s.style.display = "none";
-    end_s.style.display = "none";
-    pay_s.style.display = "inline-flex";
-  } else {
-    message.innerHTML = "Complete todos los campos vacíos";
-  }
-});
+  endReservation()
+}
+
 
 //evento para finalizar
-btn_end.addEventListener("click", (event) => {
-  event.preventDefault();
+function endReservation(){
 
-  form_s.style.display = "none";
-  pay_s.style.display = "none";
+  const reservation_s = document.getElementById("reservation_s");
+  const form_s = document.getElementById("form_s");
+  const pay_s = document.getElementById("pay_s");
+ 
+   
   reservation_s.style.display = "none";
-  end_s.style.display = "inline-flex";
-});
+  form_s.style.display = "none";
+  pay_s.style.display = "flex";
+ 
+}
 
+function backInit(){  
+    location.reload();
+}
+
+window.addEventListener('load', init)

@@ -1,163 +1,101 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Apriori</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main class="main">
-      <section id="reservation_s" class="main__reservation">
-        <div id="title" class="main__reservation__title">
-          <h1>Detalles de tu reserva en APRIORI</h1>
-        </div>
-        <div class="main__reservation__body">
-          <figure class="main__reservation__body__img">
-            <img
-              id="img__1"
-              src="./img/aprioriReservation.jpeg"
-              alt="texto descriptivo"
-            />
-          </figure>
-  
-          <div id="data" class="main__reservation__body__data">
-            <p>Reserva hecha <br>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Apriori</title>
+  <script src="index.js" type="module"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <section id="reservation_s">
+
+      <div>
+        <h1>Detalles de tu reserva en APRIORI</h1>
+      </div>
+      <div>
+   
+        <div>
+          <p>Reserva hecha <br>
             Mesa Nro. 12 <br>
             Martes 24 a las 20:30 hrs. <br>
             A nombre de Leo Ruiz <br>
             Av. Los Caminos 123</p>
-          </div>
-         
         </div>
-        <div id="added" class="main__reservation__add">
-          <h3>¿Desea añadir su tarjeta de cŕedito?</h3>
-          <p>
-            Ahora puedes decidir cómo pagar la cuenta final antes de consumir en
-            nuestro local
-          </p>
-          <p>
-            Dale click al botón "Sí, quiero" y disfruta de la experiencia!!!
-          </p>
-          <button id="btn_yes">Sí, quiero</button>
-        </div>
-      </section>
-      <section id="form_s" class="main__validation">
-        <figure class="main__validation__img">
-          <img
-            id="img__2"
-            src="./img/aprioriValidation.png"
-            alt="texto descriptivo"
-          />
-          <h2>Ingresa los datos de tu tarjeta</h2>
-        </figure>
+      </div>
+
+      <div>
+        <h3>¿Desea añadir su tarjeta de cŕedito?</h3>
+        <p>
+          Ahora puedes decidir cómo pagar la cuenta final antes de consumir en
+          nuestro local
+        </p>
+        <p>
+          Dale click al botón "Sí, quiero" y disfruta de la experiencia!!!
+        </p>
+
+        <p>
+          <button id="btn_yes">Aceptar</button>
+        </p>
         
-          <form id="form_f" class="main__validation__form" action="" >
-            <label for="numberCard" class="main__validation__form__number">
-              <span> Número de tarjeta </span>
-            </label>
-            <input
-              type="text"
-              id="numberCard"
-              placeholder="1234 5678 1234 5678"
-              name="numberCard"
-              aria-required="true"
-            />
-            <p id="message"></p>
-            <label for="name" class="main__validation__form__name">
-              <span> Nombres completos </span>
-            </label>
-            <input
-              type="text"
-              id="names"
-              placeholder="Leo Ruiz"
-              name="name"
-              aria-required="true"
-            />
-  
-            <label for="expiration" class="main__validation__form__exp">
-              <span> Expira </span>
-            </label>
-            <input
-              type="month"
-              id="expiration"
-              placeholder="17/02/2024"
-              name="expiration"
-              aria-required="true"
-            />
-  
-            <label for="ccv" class="main__validation__form__ccv">
-              <span> CCV </span>
-            </label>
-            <input
-              type="text"
-              id="ccv"
-              placeholder="177"
-              name="ccv"
-              aria-required="true"
-            />
-  
-            <input
-              id="input_validation"
-              type="submit"
-              value="Validar"
-              class="main__validation__form__submit"
-            />
-            <button id="btn_pay">Pagar</button>
-          </form>
-      
-       
-      </section>
+      </div>
+    </section>
 
-      <section id="pay_s" class="main__pay">
-        <div class="main__pay__title">
-          <h2>
-            Tu tarjeta fue añadida como <br />
-            medio de pago futuro
-          </h2>
-         </div> 
-          <div class="main__pay__text">
-            <p>
-              Al finalizar tu consumo total en la mesa Nro. 12, <br />
-              el total de la cuenta será cargado a tu cuenta*
-            </p>
-            <p>
-              *Sólo se cargarán a tu tarjeta aquellos gastos que se realicen en
-              tu mesa reservada
-            </p>
-            
-          </div>
+    <section id="form_s">
+  
 
+      <form id="form_f" action="">
+        <h2>Ingresa los datos de tu tarjeta</h2>
+
+        <label for="numberCard"> Número de tarjeta </label>
+        <input type="text" id="numberCard" placeholder="1234 5678 1234 5678" name="numberCard" aria-required="true" />
+
+        <p id="message"></p>
+
+        <label for="name" class="main__validation__form__name">Nombres completos</label>
+        <input type="text" id="names" placeholder="Leo Ruiz" name="name" aria-required="true" />
+
+        <label for="expiration">Expira</label>
+        <input type="month" id="expiration" placeholder="17/02/2024" name="expiration" aria-required="true" />
+
+        <label for="ccv">CCV</label>
+        <input type="text" id="ccv" placeholder="177" name="ccv" aria-required="true" />
+
+        <input id="input_validation" type="submit" value="Pagar" />
+        
+
+      </form>
+
+    </section>
+
+    <section id="pay_s">
+      <div>
+        <h2>
+          Tu tarjeta fue añadida como <br />
+          medio de pago futuro
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          Al finalizar tu consumo total en la mesa Nro. 12, <br />
+          el total de la cuenta será cargado a tu cuenta*
+        </p>
+        <p>
+          *Sólo se cargarán a tu tarjeta aquellos gastos que se realicen en
+          tu mesa reservada
+        </p>
+        <p>
           <button id="btn_end">Finalizar</button>
-        
-      </section>
+        </p>
+      </div>
+    </section>
+   <footer>
 
-      <section id="end_s" class="main__reservation">
-        <div class="main__reservation__title">
-          <h1>Detalles de tu reserva en APRIORI</h1>
-          <h2>¡Te esperamos!</h2>
-        </div>
-        <div class="main__reservation__body">
-          <figure class="main__reservation__body__img">
-            <img
-              id="img__3"
-              src="./img/aprioriReservation.jpeg"
-              alt="texto descriptivo"
-            />
-          </figure>
-  
-          <div class="main__reservation__body__data">
-            <p>Reserva hecha <br>
-            Mesa Nro. 12 <br>
-            Martes 24 a las 20:30 hrs. <br>
-            A nombre de Leo Ruiz <br>
-            Av. Los Caminos 123</p>
-          </div>
-        </div>
-        
-      </section>
-    </main>
+   </footer>
+  </main>
+</body>
 
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
 </html>
